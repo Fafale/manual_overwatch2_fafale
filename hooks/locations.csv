@@ -1,0 +1,61 @@
+name;category;requires
+KO enemy DVa;Hero KO;
+KO enemy Doomfist;Hero KO;
+KO enemy Hazard;Hero KO;
+KO enemy Junker Queen;Hero KO;
+KO enemy Mauga;Hero KO;
+KO enemy Orisa;Hero KO;
+KO enemy Ramattra;Hero KO;
+KO enemy Reinhardt;Hero KO;
+KO enemy Roadhog;Hero KO;
+KO enemy Sigma;Hero KO;
+KO enemy Winston;Hero KO;
+KO enemy Wrecking Ball;Hero KO;
+KO enemy Zarya;Hero KO;
+KO enemy Ashe;Hero KO;
+KO enemy Bastion;Hero KO;
+KO enemy Cassidy;Hero KO;
+KO enemy Echo;Hero KO;
+KO enemy Genji;Hero KO;
+KO enemy Hanzo;Hero KO;
+KO enemy Junkrat;Hero KO;
+KO enemy Mei;Hero KO;
+KO enemy Pharah;Hero KO;
+KO enemy Reaper;Hero KO;
+KO enemy Sojourn;Hero KO;
+KO enemy Soldier 76;Hero KO;
+KO enemy Sombra;Hero KO;
+KO enemy Symmetra;Hero KO;
+KO enemy Torbjorn;Hero KO;
+KO enemy Tracer;Hero KO;
+KO enemy Venture;Hero KO;
+KO enemy Widowmaker;Hero KO;
+KO enemy Ana;Hero KO;
+KO enemy Baptiste;Hero KO;
+KO enemy Brigitte;Hero KO;
+KO enemy Illari;Hero KO;
+KO enemy Juno;Hero KO;
+KO enemy Kiriko;Hero KO;
+KO enemy Lifeweaver;Hero KO;
+KO enemy Lucio;Hero KO;
+KO enemy Mercy;Hero KO;
+KO enemy Moira;Hero KO;
+KO enemy Zenyatta;Hero KO;
+Win Control as Tank Role;Win as Tank;|@Tank Heroes:1|
+Win Escort as Tank Role;Win as Tank;|@Tank Heroes:1|
+Win Flashpoint as Tank Role;Win as Tank;|@Tank Heroes:1|
+Win Hybrid as Tank Role;Win as Tank;|@Tank Heroes:1|
+Win Push as Tank Role;Win as Tank;|@Tank Heroes:1|
+Win Clash as Tank Role;Win as Tank;|@Tank Heroes:1|
+Win Control as Damage Role;Win as Damage;|@Damage Heroes:1|
+Win Escort as Damage Role;Win as Damage;|@Damage Heroes:1|
+Win Flashpoint as Damage Role;Win as Damage;|@Damage Heroes:1|
+Win Hybrid as Damage Role;Win as Damage;|@Damage Heroes:1|
+Win Push as Damage Role;Win as Damage;|@Damage Heroes:1|
+Win Clash as Damage Role;Win as Damage;|@Damage Heroes:1|
+Win Control as Support Role;Win as Support;|@Support Heroes:1|
+Win Escort as Support Role;Win as Support;|@Support Heroes:1|
+Win Flashpoint as Support Role;Win as Support;|@Support Heroes:1|
+Win Hybrid as Support Role;Win as Support;|@Support Heroes:1|
+Win Push as Support Role;Win as Support;|@Support Heroes:1|
+Win Clash as Support Role;Win as Support;|@Support Heroes:1|

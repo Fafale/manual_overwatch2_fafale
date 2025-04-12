@@ -1,0 +1,353 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+    "data": [
+        {
+            "count":1,
+            "name": "Ultimate Medal (Victory)",
+            "category": ["Win Condition - Final Challenge"],
+            "progression": true
+        },
+        {
+            "count":500,
+            "name": "Medal",
+            "category": ["Medals"],
+            "progression": true
+        },
+        {
+            "name": "DVa",
+            "category": [
+                "Heroes",
+                "Tank Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Doomfist",
+            "category": [
+                "Heroes",
+                "Tank Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Hazard",
+            "category": [
+                "Heroes",
+                "Tank Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Junker Queen",
+            "category": [
+                "Heroes",
+                "Tank Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Mauga",
+            "category": [
+                "Heroes",
+                "Tank Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Orisa",
+            "category": [
+                "Heroes",
+                "Tank Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Ramattra",
+            "category": [
+                "Heroes",
+                "Tank Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Reinhardt",
+            "category": [
+                "Heroes",
+                "Tank Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Roadhog",
+            "category": [
+                "Heroes",
+                "Tank Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Sigma",
+            "category": [
+                "Heroes",
+                "Tank Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Winston",
+            "category": [
+                "Heroes",
+                "Tank Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Wrecking Ball",
+            "category": [
+                "Heroes",
+                "Tank Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Zarya",
+            "category": [
+                "Heroes",
+                "Tank Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Ashe",
+            "category": [
+                "Heroes",
+                "Damage Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Bastion",
+            "category": [
+                "Heroes",
+                "Damage Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Cassidy",
+            "category": [
+                "Heroes",
+                "Damage Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Echo",
+            "category": [
+                "Heroes",
+                "Damage Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Genji",
+            "category": [
+                "Heroes",
+                "Damage Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Hanzo",
+            "category": [
+                "Heroes",
+                "Damage Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Junkrat",
+            "category": [
+                "Heroes",
+                "Damage Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Mei",
+            "category": [
+                "Heroes",
+                "Damage Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Pharah",
+            "category": [
+                "Heroes",
+                "Damage Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Reaper",
+            "category": [
+                "Heroes",
+                "Damage Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Sojourn",
+            "category": [
+                "Heroes",
+                "Damage Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Soldier 76",
+            "category": [
+                "Heroes",
+                "Damage Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Sombra",
+            "category": [
+                "Heroes",
+                "Damage Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Symmetra",
+            "category": [
+                "Heroes",
+                "Damage Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Torbjorn",
+            "category": [
+                "Heroes",
+                "Damage Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Tracer",
+            "category": [
+                "Heroes",
+                "Damage Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Venture",
+            "category": [
+                "Heroes",
+                "Damage Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Widowmaker",
+            "category": [
+                "Heroes",
+                "Damage Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Ana",
+            "category": [
+                "Heroes",
+                "Support Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Baptiste",
+            "category": [
+                "Heroes",
+                "Support Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Brigitte",
+            "category": [
+                "Heroes",
+                "Support Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Illari",
+            "category": [
+                "Heroes",
+                "Support Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Juno",
+            "category": [
+                "Heroes",
+                "Support Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Kiriko",
+            "category": [
+                "Heroes",
+                "Support Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Lifeweaver",
+            "category": [
+                "Heroes",
+                "Support Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Lucio",
+            "category": [
+                "Heroes",
+                "Support Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Mercy",
+            "category": [
+                "Heroes",
+                "Support Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Moira",
+            "category": [
+                "Heroes",
+                "Support Heroes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Zenyatta",
+            "category": [
+                "Heroes",
+                "Support Heroes"
+            ],
+            "progression": true
+        }
+    ]
+}

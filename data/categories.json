@@ -1,0 +1,44 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
+    "Example Logic only category": {
+        "hidden": true
+    },
+    "Example Yaml-option category": {
+        "yaml_option": ["DLC_enabled"]
+    },
+    "Medals": {
+        "hidden": false
+    },
+    "Heroes": {
+        "hidden": false
+    },
+    "Tank Heroes": {
+        "hidden": true,
+        "yaml_option": ["include_tank_heroes"]
+    },
+    "Damage Heroes": {
+        "hidden": true,
+        "yaml_option": ["include_damage_heroes"]
+    },
+    "Support Heroes": {
+        "hidden": true,
+        "yaml_option": ["include_support_heroes"]
+    },
+    "Hero Masteries": {
+        "hidden": false,
+        "yaml_option": ["enable_hero_masteries"]
+    },
+    "Hero KO": {
+        "hidden": false,
+        "yaml_option": ["enable_hero_ko"]
+    },
+    "Win as Tank": {
+        "hidden": false
+    },
+    "Win as Damage": {
+        "hidden": false
+    },
+    "Win as Support": {
+        "hidden": false
+    }
+}
