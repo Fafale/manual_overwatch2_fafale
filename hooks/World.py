@@ -30,7 +30,89 @@ import logging
 ## The fill_slot_data method will be used to send data to the Manual client for later use, like deathlink.
 ########################################################################################
 
+def manual_overwatch2_define_max_medals(multiworld: MultiWorld, player: int, print_log: bool):
+    TANK_HERO_AMOUNT = 13
+    DAMAGE_HERO_AMOUNT = 18
+    SUPPORT_HERO_AMOUNT = 11
+    HERO_MASTERY_AMOUNT = 14
 
+    enable_tank_heroes = get_option_value(multiworld, player, "include_tank_heroes")
+    aux_tank_amount = len(get_option_value(multiworld, player, "available_tank_heroes"))
+    if aux_tank_amount == 0: aux_tank_amount = TANK_HERO_AMOUNT
+    tank_amount = min(get_option_value(multiworld, player, "tank_heroes_amount"), aux_tank_amount) if enable_tank_heroes else 0
+
+    enable_damage_heroes = get_option_value(multiworld, player, "include_damage_heroes")
+    aux_damage_amount = len(get_option_value(multiworld, player, "available_damage_heroes"))
+    if aux_damage_amount == 0: aux_damage_amount = DAMAGE_HERO_AMOUNT
+    damage_amount = min(get_option_value(multiworld, player, "damage_heroes_amount"), aux_damage_amount) if enable_damage_heroes else 0
+
+    enable_support_heroes = get_option_value(multiworld, player, "include_support_heroes")
+    aux_support_amount = len(get_option_value(multiworld, player, "available_support_heroes"))
+    if aux_support_amount == 0: aux_support_amount = SUPPORT_HERO_AMOUNT
+    support_amount = min(get_option_value(multiworld, player, "support_heroes_amount"), aux_support_amount) if enable_support_heroes else 0
+
+    total_hero_amount = tank_amount + damage_amount + support_amount
+    ITE_heroes = total_hero_amount
+    
+    enable_hero_ko = get_option_value(multiworld, player, "enable_hero_elimination_checks")
+    hero_ko_amount = get_option_value(multiworld, player, "hero_elimination_check_amount")
+    LOC_hero_ko = hero_ko_amount*total_hero_amount if enable_hero_ko else 0
+    
+    enable_mastery = get_option_value(multiworld, player, "include_hero_masteries")
+    mastery_checks = get_option_value(multiworld, player, "hero_mastery_check_amount")
+    aux_mastery_amount = len(get_option_value(multiworld, player, "available_hero_masteries"))
+    if aux_mastery_amount == 0: aux_mastery_amount = HERO_MASTERY_AMOUNT
+    mastery_amount = min(get_option_value(multiworld, player, "hero_masteries_amount"), aux_mastery_amount) if enable_mastery else 0
+    LOC_mastery = mastery_amount * mastery_checks * 3 if enable_mastery else 0
+    if enable_mastery == 1:
+        ITE_mastery = 3 * mastery_amount
+    elif enable_mastery == 2:
+        ITE_mastery = mastery_amount
+    else:
+        ITE_mastery = 0
+    
+    enable_deathmatch = get_option_value(multiworld, player, "include_deathmatch_checks")
+    deathmatch_checks = get_option_value(multiworld, player, "deathmatch_check_amount")
+    if ((enable_deathmatch == 1) or (enable_deathmatch == 2)):
+        ITE_deathmatch = 1
+        LOC_deathmatch = deathmatch_checks
+    elif enable_deathmatch == 3:
+        ITE_deathmatch = 2
+        LOC_deathmatch = 2*deathmatch_checks
+    else:
+        ITE_deathmatch = 0
+        LOC_deathmatch = 0
+
+    LOC_wins = 18
+
+    ITE_total =            ITE_heroes  + ITE_mastery + ITE_deathmatch
+    LOC_total = LOC_wins + LOC_hero_ko + LOC_mastery + LOC_deathmatch
+
+    if print_log:
+        logging.info(f"Manual Overwatch 2 - Medal Count for SlotID {player}:")
+        logging.info(f"  HERO AND MASTERY AMOUNT:")
+        logging.info(f"  - Tank:    {tank_amount:02d}")
+        logging.info(f"  - Damage:  {damage_amount:02d}")
+        logging.info(f"  - Support: {support_amount:02d}")
+        logging.info(f"  - Mastery: {mastery_amount:02d}")
+        logging.info("")
+        logging.info(f"  ITEMS:")
+        logging.info(f"  - Heroes:     {ITE_heroes}")
+        logging.info(f"  - Masteries:  {ITE_mastery:02d}")
+        logging.info(f"  - Deathmatch: {ITE_deathmatch:02d}")
+        logging.info(f"  - TOTAL:      {ITE_total:02d}")
+        logging.info("")
+        logging.info(f"  LOCATIONS:")
+        logging.info(f"  - Generic wins: {LOC_wins:02d}")
+        logging.info(f"  - Eliminations: {LOC_hero_ko:02d}")
+        logging.info(f"  - Masteries:    {LOC_mastery:02d}")
+        logging.info(f"  - Deathmatch:   {LOC_deathmatch:02d}")
+        logging.info(f"  - TOTAL:        {LOC_total:02d}")
+        logging.info("")
+        logging.info(f"  MAX MEDALS: {LOC_total} - {ITE_total} = {LOC_total - ITE_total}")
+        logging.info(f"------------------------------------------------------")
+    
+    return LOC_total - ITE_total
 
 # Use this function to change the valid filler items to be created to replace item links or starting items.
 # Default value is the `filler_item_name` from game.json
@@ -39,7 +121,7 @@ def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int)
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
-    max_medals = get_option_value(multiworld, player, "debug_medal_amount")
+    max_medals = manual_overwatch2_define_max_medals(multiworld, player, True)
     multiplier = get_option_value(multiworld, player, "required_medal_percentage")
     medals = round(max_medals * multiplier / 100)
     if medals == 0:
@@ -333,7 +415,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
     
 
-    max_medals = get_option_value(multiworld, player, "debug_medal_amount")
+    max_medals = manual_overwatch2_define_max_medals(multiworld, player, False)
     multiplier = get_option_value(multiworld, player, "required_medal_percentage")
     medals = round(max_medals * multiplier / 100)
     if medals == 0:

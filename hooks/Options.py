@@ -98,12 +98,6 @@ HERO_MASTERY_AMOUNT = len(HERO_MASTERY_LIST)
 #   options["total_characters_to_win_with"] = TotalCharactersToWinWith
 #
 
-class DebugMedalAmount(Range):
-    display_name = "DEBUG Medal Amount"
-    range_start = 1
-    range_end = 500
-    default = 30
-
 class RequiredMedalPercentage(Range):
     """
     Percentage of Medals to win the game.
@@ -310,7 +304,6 @@ class DeathmatchCheckAmount(Range):
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict) -> dict:
-    options["debug_medal_amount"]        = DebugMedalAmount
     options["required_medal_percentage"] = RequiredMedalPercentage
 
     options["starting_hero_number"]     = StartingHeroNumber
