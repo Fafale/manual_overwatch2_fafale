@@ -113,11 +113,22 @@ class RequiredMedalPercentage(Range):
     range_end = 100
     default = 70
 
-class EnableHeroKO(Toggle):
+class EnableHeroEliminationChecks(Toggle):
     """
-    Enable whether specific Hero KO are included in the randomizer.
+    Enable whether getting Eliminations with specific heroes are included in the randomizer.
     """
-    display_name = "Enable Hero KO"
+    display_name = "Enable Hero Elimination Checks"
+
+class HeroEliminationCheckAmount(Range):
+    """
+    Can be ignored if enable_hero_elimination_checks is false
+
+    Choose how many "Get X Eliminations" checks each hero has.
+    """
+    display_name = "Hero Elimination Check Amount"
+    range_start = 1
+    range_end = 5
+    default = 3
 
 class StartingHeroNumber(Range):
     """
@@ -263,7 +274,8 @@ def before_options_defined(options: dict) -> dict:
     options["debug_medal_amount"]        = DebugMedalAmount
     options["required_medal_percentage"] = RequiredMedalPercentage
 
-    options["enable_hero_ko"]           = EnableHeroKO
+    options["enable_hero_elimination_checks"]   = EnableHeroEliminationChecks
+    options["hero_elimination_check_amount"]    = HeroEliminationCheckAmount
 
     options["starting_hero_number"]     = StartingHeroNumber
 

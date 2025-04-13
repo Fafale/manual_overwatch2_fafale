@@ -22,9 +22,9 @@
         "hidden": false,
         "yaml_option": ["include_hero_masteries"]
     },
-    "Hero KO": {
+    "Hero Eliminations": {
         "hidden": false,
-        "yaml_option": ["enable_hero_ko"]
+        "yaml_option": ["enable_hero_elimination_checks"]
     },
     "Win as Tank": {
         "hidden": false

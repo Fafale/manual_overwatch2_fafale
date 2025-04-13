@@ -1,46 +1,214 @@
 name,category,requires
-KO enemy DVa,Hero KO,
-KO enemy Doomfist,Hero KO,
-KO enemy Hazard,Hero KO,
-KO enemy Junker Queen,Hero KO,
-KO enemy Mauga,Hero KO,
-KO enemy Orisa,Hero KO,
-KO enemy Ramattra,Hero KO,
-KO enemy Reinhardt,Hero KO,
-KO enemy Roadhog,Hero KO,
-KO enemy Sigma,Hero KO,
-KO enemy Winston,Hero KO,
-KO enemy Wrecking Ball,Hero KO,
-KO enemy Zarya,Hero KO,
-KO enemy Ashe,Hero KO,
-KO enemy Bastion,Hero KO,
-KO enemy Cassidy,Hero KO,
-KO enemy Echo,Hero KO,
-KO enemy Genji,Hero KO,
-KO enemy Hanzo,Hero KO,
-KO enemy Junkrat,Hero KO,
-KO enemy Mei,Hero KO,
-KO enemy Pharah,Hero KO,
-KO enemy Reaper,Hero KO,
-KO enemy Sojourn,Hero KO,
-KO enemy Soldier 76,Hero KO,
-KO enemy Sombra,Hero KO,
-KO enemy Symmetra,Hero KO,
-KO enemy Torbjorn,Hero KO,
-KO enemy Tracer,Hero KO,
-KO enemy Venture,Hero KO,
-KO enemy Widowmaker,Hero KO,
-KO enemy Ana,Hero KO,
-KO enemy Baptiste,Hero KO,
-KO enemy Brigitte,Hero KO,
-KO enemy Illari,Hero KO,
-KO enemy Juno,Hero KO,
-KO enemy Kiriko,Hero KO,
-KO enemy Lifeweaver,Hero KO,
-KO enemy Lucio,Hero KO,
-KO enemy Mercy,Hero KO,
-KO enemy Moira,Hero KO,
-KO enemy Zenyatta,Hero KO,
+DVa - Get 1X Eliminations,Hero Eliminations; Tank Heroes,|DVa|
+Doomfist - Get 1X Eliminations,Hero Eliminations; Tank Heroes,|Doomfist|
+Hazard - Get 1X Eliminations,Hero Eliminations; Tank Heroes,|Hazard|
+Junker Queen - Get 1X Eliminations,Hero Eliminations; Tank Heroes,|Junker Queen|
+Mauga - Get 1X Eliminations,Hero Eliminations; Tank Heroes,|Mauga|
+Orisa - Get 1X Eliminations,Hero Eliminations; Tank Heroes,|Orisa|
+Ramattra - Get 1X Eliminations,Hero Eliminations; Tank Heroes,|Ramattra|
+Reinhardt - Get 1X Eliminations,Hero Eliminations; Tank Heroes,|Reinhardt|
+Roadhog - Get 1X Eliminations,Hero Eliminations; Tank Heroes,|Roadhog|
+Sigma - Get 1X Eliminations,Hero Eliminations; Tank Heroes,|Sigma|
+Winston - Get 1X Eliminations,Hero Eliminations; Tank Heroes,|Winston|
+Wrecking Ball - Get 1X Eliminations,Hero Eliminations; Tank Heroes,|Wrecking Ball|
+Zarya - Get 1X Eliminations,Hero Eliminations; Tank Heroes,|Zarya|
+Ashe - Get 1X Eliminations,Hero Eliminations; Damage Heroes,|Ashe|
+Bastion - Get 1X Eliminations,Hero Eliminations; Damage Heroes,|Bastion|
+Cassidy - Get 1X Eliminations,Hero Eliminations; Damage Heroes,|Cassidy|
+Echo - Get 1X Eliminations,Hero Eliminations; Damage Heroes,|Echo|
+Genji - Get 1X Eliminations,Hero Eliminations; Damage Heroes,|Genji|
+Hanzo - Get 1X Eliminations,Hero Eliminations; Damage Heroes,|Hanzo|
+Junkrat - Get 1X Eliminations,Hero Eliminations; Damage Heroes,|Junkrat|
+Mei - Get 1X Eliminations,Hero Eliminations; Damage Heroes,|Mei|
+Pharah - Get 1X Eliminations,Hero Eliminations; Damage Heroes,|Pharah|
+Reaper - Get 1X Eliminations,Hero Eliminations; Damage Heroes,|Reaper|
+Sojourn - Get 1X Eliminations,Hero Eliminations; Damage Heroes,|Sojourn|
+Soldier 76 - Get 1X Eliminations,Hero Eliminations; Damage Heroes,|Soldier 76|
+Sombra - Get 1X Eliminations,Hero Eliminations; Damage Heroes,|Sombra|
+Symmetra - Get 1X Eliminations,Hero Eliminations; Damage Heroes,|Symmetra|
+Torbjorn - Get 1X Eliminations,Hero Eliminations; Damage Heroes,|Torbjorn|
+Tracer - Get 1X Eliminations,Hero Eliminations; Damage Heroes,|Tracer|
+Venture - Get 1X Eliminations,Hero Eliminations; Damage Heroes,|Venture|
+Widowmaker - Get 1X Eliminations,Hero Eliminations; Damage Heroes,|Widowmaker|
+Ana - Get 1X Eliminations,Hero Eliminations; Support Heroes,|Ana|
+Baptiste - Get 1X Eliminations,Hero Eliminations; Support Heroes,|Baptiste|
+Brigitte - Get 1X Eliminations,Hero Eliminations; Support Heroes,|Brigitte|
+Illari - Get 1X Eliminations,Hero Eliminations; Support Heroes,|Illari|
+Juno - Get 1X Eliminations,Hero Eliminations; Support Heroes,|Juno|
+Kiriko - Get 1X Eliminations,Hero Eliminations; Support Heroes,|Kiriko|
+Lifeweaver - Get 1X Eliminations,Hero Eliminations; Support Heroes,|Lifeweaver|
+Lucio - Get 1X Eliminations,Hero Eliminations; Support Heroes,|Lucio|
+Mercy - Get 1X Eliminations,Hero Eliminations; Support Heroes,|Mercy|
+Moira - Get 1X Eliminations,Hero Eliminations; Support Heroes,|Moira|
+Zenyatta - Get 1X Eliminations,Hero Eliminations; Support Heroes,|Zenyatta|
+DVa - Get 2X Eliminations,Hero Eliminations; Tank Heroes,|DVa|
+Doomfist - Get 2X Eliminations,Hero Eliminations; Tank Heroes,|Doomfist|
+Hazard - Get 2X Eliminations,Hero Eliminations; Tank Heroes,|Hazard|
+Junker Queen - Get 2X Eliminations,Hero Eliminations; Tank Heroes,|Junker Queen|
+Mauga - Get 2X Eliminations,Hero Eliminations; Tank Heroes,|Mauga|
+Orisa - Get 2X Eliminations,Hero Eliminations; Tank Heroes,|Orisa|
+Ramattra - Get 2X Eliminations,Hero Eliminations; Tank Heroes,|Ramattra|
+Reinhardt - Get 2X Eliminations,Hero Eliminations; Tank Heroes,|Reinhardt|
+Roadhog - Get 2X Eliminations,Hero Eliminations; Tank Heroes,|Roadhog|
+Sigma - Get 2X Eliminations,Hero Eliminations; Tank Heroes,|Sigma|
+Winston - Get 2X Eliminations,Hero Eliminations; Tank Heroes,|Winston|
+Wrecking Ball - Get 2X Eliminations,Hero Eliminations; Tank Heroes,|Wrecking Ball|
+Zarya - Get 2X Eliminations,Hero Eliminations; Tank Heroes,|Zarya|
+Ashe - Get 2X Eliminations,Hero Eliminations; Damage Heroes,|Ashe|
+Bastion - Get 2X Eliminations,Hero Eliminations; Damage Heroes,|Bastion|
+Cassidy - Get 2X Eliminations,Hero Eliminations; Damage Heroes,|Cassidy|
+Echo - Get 2X Eliminations,Hero Eliminations; Damage Heroes,|Echo|
+Genji - Get 2X Eliminations,Hero Eliminations; Damage Heroes,|Genji|
+Hanzo - Get 2X Eliminations,Hero Eliminations; Damage Heroes,|Hanzo|
+Junkrat - Get 2X Eliminations,Hero Eliminations; Damage Heroes,|Junkrat|
+Mei - Get 2X Eliminations,Hero Eliminations; Damage Heroes,|Mei|
+Pharah - Get 2X Eliminations,Hero Eliminations; Damage Heroes,|Pharah|
+Reaper - Get 2X Eliminations,Hero Eliminations; Damage Heroes,|Reaper|
+Sojourn - Get 2X Eliminations,Hero Eliminations; Damage Heroes,|Sojourn|
+Soldier 76 - Get 2X Eliminations,Hero Eliminations; Damage Heroes,|Soldier 76|
+Sombra - Get 2X Eliminations,Hero Eliminations; Damage Heroes,|Sombra|
+Symmetra - Get 2X Eliminations,Hero Eliminations; Damage Heroes,|Symmetra|
+Torbjorn - Get 2X Eliminations,Hero Eliminations; Damage Heroes,|Torbjorn|
+Tracer - Get 2X Eliminations,Hero Eliminations; Damage Heroes,|Tracer|
+Venture - Get 2X Eliminations,Hero Eliminations; Damage Heroes,|Venture|
+Widowmaker - Get 2X Eliminations,Hero Eliminations; Damage Heroes,|Widowmaker|
+Ana - Get 2X Eliminations,Hero Eliminations; Support Heroes,|Ana|
+Baptiste - Get 2X Eliminations,Hero Eliminations; Support Heroes,|Baptiste|
+Brigitte - Get 2X Eliminations,Hero Eliminations; Support Heroes,|Brigitte|
+Illari - Get 2X Eliminations,Hero Eliminations; Support Heroes,|Illari|
+Juno - Get 2X Eliminations,Hero Eliminations; Support Heroes,|Juno|
+Kiriko - Get 2X Eliminations,Hero Eliminations; Support Heroes,|Kiriko|
+Lifeweaver - Get 2X Eliminations,Hero Eliminations; Support Heroes,|Lifeweaver|
+Lucio - Get 2X Eliminations,Hero Eliminations; Support Heroes,|Lucio|
+Mercy - Get 2X Eliminations,Hero Eliminations; Support Heroes,|Mercy|
+Moira - Get 2X Eliminations,Hero Eliminations; Support Heroes,|Moira|
+Zenyatta - Get 2X Eliminations,Hero Eliminations; Support Heroes,|Zenyatta|
+DVa - Get 3X Eliminations,Hero Eliminations; Tank Heroes,|DVa|
+Doomfist - Get 3X Eliminations,Hero Eliminations; Tank Heroes,|Doomfist|
+Hazard - Get 3X Eliminations,Hero Eliminations; Tank Heroes,|Hazard|
+Junker Queen - Get 3X Eliminations,Hero Eliminations; Tank Heroes,|Junker Queen|
+Mauga - Get 3X Eliminations,Hero Eliminations; Tank Heroes,|Mauga|
+Orisa - Get 3X Eliminations,Hero Eliminations; Tank Heroes,|Orisa|
+Ramattra - Get 3X Eliminations,Hero Eliminations; Tank Heroes,|Ramattra|
+Reinhardt - Get 3X Eliminations,Hero Eliminations; Tank Heroes,|Reinhardt|
+Roadhog - Get 3X Eliminations,Hero Eliminations; Tank Heroes,|Roadhog|
+Sigma - Get 3X Eliminations,Hero Eliminations; Tank Heroes,|Sigma|
+Winston - Get 3X Eliminations,Hero Eliminations; Tank Heroes,|Winston|
+Wrecking Ball - Get 3X Eliminations,Hero Eliminations; Tank Heroes,|Wrecking Ball|
+Zarya - Get 3X Eliminations,Hero Eliminations; Tank Heroes,|Zarya|
+Ashe - Get 3X Eliminations,Hero Eliminations; Damage Heroes,|Ashe|
+Bastion - Get 3X Eliminations,Hero Eliminations; Damage Heroes,|Bastion|
+Cassidy - Get 3X Eliminations,Hero Eliminations; Damage Heroes,|Cassidy|
+Echo - Get 3X Eliminations,Hero Eliminations; Damage Heroes,|Echo|
+Genji - Get 3X Eliminations,Hero Eliminations; Damage Heroes,|Genji|
+Hanzo - Get 3X Eliminations,Hero Eliminations; Damage Heroes,|Hanzo|
+Junkrat - Get 3X Eliminations,Hero Eliminations; Damage Heroes,|Junkrat|
+Mei - Get 3X Eliminations,Hero Eliminations; Damage Heroes,|Mei|
+Pharah - Get 3X Eliminations,Hero Eliminations; Damage Heroes,|Pharah|
+Reaper - Get 3X Eliminations,Hero Eliminations; Damage Heroes,|Reaper|
+Sojourn - Get 3X Eliminations,Hero Eliminations; Damage Heroes,|Sojourn|
+Soldier 76 - Get 3X Eliminations,Hero Eliminations; Damage Heroes,|Soldier 76|
+Sombra - Get 3X Eliminations,Hero Eliminations; Damage Heroes,|Sombra|
+Symmetra - Get 3X Eliminations,Hero Eliminations; Damage Heroes,|Symmetra|
+Torbjorn - Get 3X Eliminations,Hero Eliminations; Damage Heroes,|Torbjorn|
+Tracer - Get 3X Eliminations,Hero Eliminations; Damage Heroes,|Tracer|
+Venture - Get 3X Eliminations,Hero Eliminations; Damage Heroes,|Venture|
+Widowmaker - Get 3X Eliminations,Hero Eliminations; Damage Heroes,|Widowmaker|
+Ana - Get 3X Eliminations,Hero Eliminations; Support Heroes,|Ana|
+Baptiste - Get 3X Eliminations,Hero Eliminations; Support Heroes,|Baptiste|
+Brigitte - Get 3X Eliminations,Hero Eliminations; Support Heroes,|Brigitte|
+Illari - Get 3X Eliminations,Hero Eliminations; Support Heroes,|Illari|
+Juno - Get 3X Eliminations,Hero Eliminations; Support Heroes,|Juno|
+Kiriko - Get 3X Eliminations,Hero Eliminations; Support Heroes,|Kiriko|
+Lifeweaver - Get 3X Eliminations,Hero Eliminations; Support Heroes,|Lifeweaver|
+Lucio - Get 3X Eliminations,Hero Eliminations; Support Heroes,|Lucio|
+Mercy - Get 3X Eliminations,Hero Eliminations; Support Heroes,|Mercy|
+Moira - Get 3X Eliminations,Hero Eliminations; Support Heroes,|Moira|
+Zenyatta - Get 3X Eliminations,Hero Eliminations; Support Heroes,|Zenyatta|
+DVa - Get 4X Eliminations,Hero Eliminations; Tank Heroes,|DVa|
+Doomfist - Get 4X Eliminations,Hero Eliminations; Tank Heroes,|Doomfist|
+Hazard - Get 4X Eliminations,Hero Eliminations; Tank Heroes,|Hazard|
+Junker Queen - Get 4X Eliminations,Hero Eliminations; Tank Heroes,|Junker Queen|
+Mauga - Get 4X Eliminations,Hero Eliminations; Tank Heroes,|Mauga|
+Orisa - Get 4X Eliminations,Hero Eliminations; Tank Heroes,|Orisa|
+Ramattra - Get 4X Eliminations,Hero Eliminations; Tank Heroes,|Ramattra|
+Reinhardt - Get 4X Eliminations,Hero Eliminations; Tank Heroes,|Reinhardt|
+Roadhog - Get 4X Eliminations,Hero Eliminations; Tank Heroes,|Roadhog|
+Sigma - Get 4X Eliminations,Hero Eliminations; Tank Heroes,|Sigma|
+Winston - Get 4X Eliminations,Hero Eliminations; Tank Heroes,|Winston|
+Wrecking Ball - Get 4X Eliminations,Hero Eliminations; Tank Heroes,|Wrecking Ball|
+Zarya - Get 4X Eliminations,Hero Eliminations; Tank Heroes,|Zarya|
+Ashe - Get 4X Eliminations,Hero Eliminations; Damage Heroes,|Ashe|
+Bastion - Get 4X Eliminations,Hero Eliminations; Damage Heroes,|Bastion|
+Cassidy - Get 4X Eliminations,Hero Eliminations; Damage Heroes,|Cassidy|
+Echo - Get 4X Eliminations,Hero Eliminations; Damage Heroes,|Echo|
+Genji - Get 4X Eliminations,Hero Eliminations; Damage Heroes,|Genji|
+Hanzo - Get 4X Eliminations,Hero Eliminations; Damage Heroes,|Hanzo|
+Junkrat - Get 4X Eliminations,Hero Eliminations; Damage Heroes,|Junkrat|
+Mei - Get 4X Eliminations,Hero Eliminations; Damage Heroes,|Mei|
+Pharah - Get 4X Eliminations,Hero Eliminations; Damage Heroes,|Pharah|
+Reaper - Get 4X Eliminations,Hero Eliminations; Damage Heroes,|Reaper|
+Sojourn - Get 4X Eliminations,Hero Eliminations; Damage Heroes,|Sojourn|
+Soldier 76 - Get 4X Eliminations,Hero Eliminations; Damage Heroes,|Soldier 76|
+Sombra - Get 4X Eliminations,Hero Eliminations; Damage Heroes,|Sombra|
+Symmetra - Get 4X Eliminations,Hero Eliminations; Damage Heroes,|Symmetra|
+Torbjorn - Get 4X Eliminations,Hero Eliminations; Damage Heroes,|Torbjorn|
+Tracer - Get 4X Eliminations,Hero Eliminations; Damage Heroes,|Tracer|
+Venture - Get 4X Eliminations,Hero Eliminations; Damage Heroes,|Venture|
+Widowmaker - Get 4X Eliminations,Hero Eliminations; Damage Heroes,|Widowmaker|
+Ana - Get 4X Eliminations,Hero Eliminations; Support Heroes,|Ana|
+Baptiste - Get 4X Eliminations,Hero Eliminations; Support Heroes,|Baptiste|
+Brigitte - Get 4X Eliminations,Hero Eliminations; Support Heroes,|Brigitte|
+Illari - Get 4X Eliminations,Hero Eliminations; Support Heroes,|Illari|
+Juno - Get 4X Eliminations,Hero Eliminations; Support Heroes,|Juno|
+Kiriko - Get 4X Eliminations,Hero Eliminations; Support Heroes,|Kiriko|
+Lifeweaver - Get 4X Eliminations,Hero Eliminations; Support Heroes,|Lifeweaver|
+Lucio - Get 4X Eliminations,Hero Eliminations; Support Heroes,|Lucio|
+Mercy - Get 4X Eliminations,Hero Eliminations; Support Heroes,|Mercy|
+Moira - Get 4X Eliminations,Hero Eliminations; Support Heroes,|Moira|
+Zenyatta - Get 4X Eliminations,Hero Eliminations; Support Heroes,|Zenyatta|
+DVa - Get 5X Eliminations,Hero Eliminations; Tank Heroes,|DVa|
+Doomfist - Get 5X Eliminations,Hero Eliminations; Tank Heroes,|Doomfist|
+Hazard - Get 5X Eliminations,Hero Eliminations; Tank Heroes,|Hazard|
+Junker Queen - Get 5X Eliminations,Hero Eliminations; Tank Heroes,|Junker Queen|
+Mauga - Get 5X Eliminations,Hero Eliminations; Tank Heroes,|Mauga|
+Orisa - Get 5X Eliminations,Hero Eliminations; Tank Heroes,|Orisa|
+Ramattra - Get 5X Eliminations,Hero Eliminations; Tank Heroes,|Ramattra|
+Reinhardt - Get 5X Eliminations,Hero Eliminations; Tank Heroes,|Reinhardt|
+Roadhog - Get 5X Eliminations,Hero Eliminations; Tank Heroes,|Roadhog|
+Sigma - Get 5X Eliminations,Hero Eliminations; Tank Heroes,|Sigma|
+Winston - Get 5X Eliminations,Hero Eliminations; Tank Heroes,|Winston|
+Wrecking Ball - Get 5X Eliminations,Hero Eliminations; Tank Heroes,|Wrecking Ball|
+Zarya - Get 5X Eliminations,Hero Eliminations; Tank Heroes,|Zarya|
+Ashe - Get 5X Eliminations,Hero Eliminations; Damage Heroes,|Ashe|
+Bastion - Get 5X Eliminations,Hero Eliminations; Damage Heroes,|Bastion|
+Cassidy - Get 5X Eliminations,Hero Eliminations; Damage Heroes,|Cassidy|
+Echo - Get 5X Eliminations,Hero Eliminations; Damage Heroes,|Echo|
+Genji - Get 5X Eliminations,Hero Eliminations; Damage Heroes,|Genji|
+Hanzo - Get 5X Eliminations,Hero Eliminations; Damage Heroes,|Hanzo|
+Junkrat - Get 5X Eliminations,Hero Eliminations; Damage Heroes,|Junkrat|
+Mei - Get 5X Eliminations,Hero Eliminations; Damage Heroes,|Mei|
+Pharah - Get 5X Eliminations,Hero Eliminations; Damage Heroes,|Pharah|
+Reaper - Get 5X Eliminations,Hero Eliminations; Damage Heroes,|Reaper|
+Sojourn - Get 5X Eliminations,Hero Eliminations; Damage Heroes,|Sojourn|
+Soldier 76 - Get 5X Eliminations,Hero Eliminations; Damage Heroes,|Soldier 76|
+Sombra - Get 5X Eliminations,Hero Eliminations; Damage Heroes,|Sombra|
+Symmetra - Get 5X Eliminations,Hero Eliminations; Damage Heroes,|Symmetra|
+Torbjorn - Get 5X Eliminations,Hero Eliminations; Damage Heroes,|Torbjorn|
+Tracer - Get 5X Eliminations,Hero Eliminations; Damage Heroes,|Tracer|
+Venture - Get 5X Eliminations,Hero Eliminations; Damage Heroes,|Venture|
+Widowmaker - Get 5X Eliminations,Hero Eliminations; Damage Heroes,|Widowmaker|
+Ana - Get 5X Eliminations,Hero Eliminations; Support Heroes,|Ana|
+Baptiste - Get 5X Eliminations,Hero Eliminations; Support Heroes,|Baptiste|
+Brigitte - Get 5X Eliminations,Hero Eliminations; Support Heroes,|Brigitte|
+Illari - Get 5X Eliminations,Hero Eliminations; Support Heroes,|Illari|
+Juno - Get 5X Eliminations,Hero Eliminations; Support Heroes,|Juno|
+Kiriko - Get 5X Eliminations,Hero Eliminations; Support Heroes,|Kiriko|
+Lifeweaver - Get 5X Eliminations,Hero Eliminations; Support Heroes,|Lifeweaver|
+Lucio - Get 5X Eliminations,Hero Eliminations; Support Heroes,|Lucio|
+Mercy - Get 5X Eliminations,Hero Eliminations; Support Heroes,|Mercy|
+Moira - Get 5X Eliminations,Hero Eliminations; Support Heroes,|Moira|
+Zenyatta - Get 5X Eliminations,Hero Eliminations; Support Heroes,|Zenyatta|
 Win Control as Tank Role,Win as Tank; Tank Heroes,|@Tank Heroes:1|
 Win Escort as Tank Role,Win as Tank; Tank Heroes,|@Tank Heroes:1|
 Win Flashpoint as Tank Role,Win as Tank; Tank Heroes,|@Tank Heroes:1|

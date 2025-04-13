@@ -72,6 +72,10 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     locationNamesToRemove = [] # List of location names
     itemNamesToRemove = [] # List of item names
 
+    MAX_HERO_KO_CHECKS = 6
+    enable_hero_ko = is_option_enabled(multiworld, player, "enable_hero_elimination_checks")
+    hero_ko_checks = get_option_value(multiworld, player, "hero_elimination_check_amount")
+
     include_mastery_mode = get_option_value(multiworld, player, "include_hero_masteries")
     enable_masteries = include_mastery_mode >= 1
 
@@ -163,10 +167,21 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             tank_list.append(st_hero)
             available_tank_list.remove(st_hero)
             all_tank_list.remove(st_hero)
+
+            if enable_hero_ko is True:
+                for i in range(hero_ko_checks+1, MAX_HERO_KO_CHECKS):
+                    locationNamesToRemove.append(f"{st_hero} - Get {i}X Eliminations")
         
         for hero in all_tank_list:
             item = next(i for i in item_pool if i.name == hero)
             item_pool.remove(item)
+
+            if enable_hero_ko is True:
+                locationNamesToRemove.append(f"{hero} - Get 1X Eliminations")
+                locationNamesToRemove.append(f"{hero} - Get 2X Eliminations")
+                locationNamesToRemove.append(f"{hero} - Get 3X Eliminations")
+                locationNamesToRemove.append(f"{hero} - Get 4X Eliminations")
+                locationNamesToRemove.append(f"{hero} - Get 5X Eliminations")   
 
 
 
@@ -207,10 +222,21 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             damage_list.append(st_hero)
             available_damage_list.remove(st_hero)
             all_damage_list.remove(st_hero)
-        
+            
+            if enable_hero_ko is True:
+                for i in range(hero_ko_checks+1, MAX_HERO_KO_CHECKS):
+                    locationNamesToRemove.append(f"{st_hero} - Get {i}X Eliminations")
+                    
         for hero in all_damage_list:
             item = next(i for i in item_pool if i.name == hero)
             item_pool.remove(item)
+
+            if enable_hero_ko is True:
+                locationNamesToRemove.append(f"{hero} - Get 1X Eliminations")
+                locationNamesToRemove.append(f"{hero} - Get 2X Eliminations")
+                locationNamesToRemove.append(f"{hero} - Get 3X Eliminations")
+                locationNamesToRemove.append(f"{hero} - Get 4X Eliminations")
+                locationNamesToRemove.append(f"{hero} - Get 5X Eliminations")   
             
     
     #Handling Support list
@@ -243,10 +269,21 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             support_list.append(st_hero)
             available_support_list.remove(st_hero)
             all_support_list.remove(st_hero)
+
+            if enable_hero_ko is True:
+                for i in range(hero_ko_checks+1, MAX_HERO_KO_CHECKS):
+                    locationNamesToRemove.append(f"{st_hero} - Get {i}X Eliminations")
         
         for hero in all_support_list:
             item = next(i for i in item_pool if i.name == hero)
             item_pool.remove(item)
+
+            if enable_hero_ko is True:
+                locationNamesToRemove.append(f"{hero} - Get 1X Eliminations")
+                locationNamesToRemove.append(f"{hero} - Get 2X Eliminations")
+                locationNamesToRemove.append(f"{hero} - Get 3X Eliminations")
+                locationNamesToRemove.append(f"{hero} - Get 4X Eliminations")
+                locationNamesToRemove.append(f"{hero} - Get 5X Eliminations")   
 
     num_starting_heroes = get_option_value(multiworld, player, "starting_hero_number")    
     
