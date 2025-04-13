@@ -23,8 +23,32 @@
         "yaml_option": ["include_hero_masteries"]
     },
     "Hero Eliminations": {
+        "hidden": true,
+        "yaml_option": ["enable_hero_elimination_checks"]
+    },
+    "Hero Eliminations - Tank Heroes": {
         "hidden": false,
         "yaml_option": ["enable_hero_elimination_checks"]
+    },
+    "Hero Eliminations - Damage Heroes": {
+        "hidden": false,
+        "yaml_option": ["enable_hero_elimination_checks"]
+    },
+    "Hero Eliminations - Support Heroes": {
+        "hidden": false,
+        "yaml_option": ["enable_hero_elimination_checks"]
+    },
+    "Include Deathmatch": {
+        "hidden": true,
+        "yaml_option": ["include_deathmatch_checks"]
+    },
+    "Deathmatch Gamemodes": {
+        "hidden": false,
+        "yaml_option": ["include_deathmatch_checks"]
+    },
+    "Deathmatch Locations": {
+        "hidden": false,
+        "yaml_option": ["include_deathmatch_checks"]
     },
     "Win as Tank": {
         "hidden": false

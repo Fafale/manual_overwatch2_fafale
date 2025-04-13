@@ -76,11 +76,14 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     enable_hero_ko = is_option_enabled(multiworld, player, "enable_hero_elimination_checks")
     hero_ko_checks = get_option_value(multiworld, player, "hero_elimination_check_amount")
 
+    MAX_HERO_MASTERY_CHECKS = 6
     include_mastery_mode = get_option_value(multiworld, player, "include_hero_masteries")
     enable_masteries = include_mastery_mode >= 1
 
     mastery_list = []
     if enable_masteries is True:
+        mastery_check_amount = get_option_value(multiworld, player, "hero_mastery_check_amount")
+
         all_mastery_list = [
             "Mercy",
             "Reinhardt",
@@ -113,16 +116,22 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
             available_mastery_list.remove(hero_name)
             all_mastery_list.remove(hero_name)
+
+            for i in range(mastery_check_amount+1, MAX_HERO_MASTERY_CHECKS):
+                locationNamesToRemove.append(f"Hero Mastery - {hero_name} - Recruit - Check {i}")
+                locationNamesToRemove.append(f"Hero Mastery - {hero_name} - Agent - Check {i}")
+                locationNamesToRemove.append(f"Hero Mastery - {hero_name} - Veteran - Check {i}")
         
         for hero_name in all_mastery_list:
             itemNamesToRemove.append(f"Hero Mastery - {hero_name}")
             itemNamesToRemove.append(f"Hero Mastery - {hero_name}")
             itemNamesToRemove.append(f"Hero Mastery - {hero_name}")
-            locationNamesToRemove.append(f"Hero Mastery - {hero_name} - Recruit")
-            locationNamesToRemove.append(f"Hero Mastery - {hero_name} - Agent")
-            locationNamesToRemove.append(f"Hero Mastery - {hero_name} - Veteran")
+            for i in range(1, MAX_HERO_MASTERY_CHECKS):
+                locationNamesToRemove.append(f"Hero Mastery - {hero_name} - Recruit - Check {i}")
+                locationNamesToRemove.append(f"Hero Mastery - {hero_name} - Agent - Check {i}")
+                locationNamesToRemove.append(f"Hero Mastery - {hero_name} - Veteran - Check {i}")
         
-        progressive_masteries = (include_mastery_mode == 2)
+        progressive_masteries = (include_mastery_mode == 1)
 
         if progressive_masteries is False:
             for hero_name in mastery_list:
@@ -170,18 +179,18 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
             if enable_hero_ko is True:
                 for i in range(hero_ko_checks+1, MAX_HERO_KO_CHECKS):
-                    locationNamesToRemove.append(f"{st_hero} - Get {i}X Eliminations")
+                    locationNamesToRemove.append(f"{st_hero} - Get Eliminations ({i})")
         
         for hero in all_tank_list:
             item = next(i for i in item_pool if i.name == hero)
             item_pool.remove(item)
 
             if enable_hero_ko is True:
-                locationNamesToRemove.append(f"{hero} - Get 1X Eliminations")
-                locationNamesToRemove.append(f"{hero} - Get 2X Eliminations")
-                locationNamesToRemove.append(f"{hero} - Get 3X Eliminations")
-                locationNamesToRemove.append(f"{hero} - Get 4X Eliminations")
-                locationNamesToRemove.append(f"{hero} - Get 5X Eliminations")   
+                locationNamesToRemove.append(f"{hero} - Get Eliminations (1)")
+                locationNamesToRemove.append(f"{hero} - Get Eliminations (2)")
+                locationNamesToRemove.append(f"{hero} - Get Eliminations (3)")
+                locationNamesToRemove.append(f"{hero} - Get Eliminations (4)")
+                locationNamesToRemove.append(f"{hero} - Get Eliminations (5)")    
 
 
 
@@ -225,18 +234,18 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             
             if enable_hero_ko is True:
                 for i in range(hero_ko_checks+1, MAX_HERO_KO_CHECKS):
-                    locationNamesToRemove.append(f"{st_hero} - Get {i}X Eliminations")
+                    locationNamesToRemove.append(f"{st_hero} - Get Eliminations ({i})")
                     
         for hero in all_damage_list:
             item = next(i for i in item_pool if i.name == hero)
             item_pool.remove(item)
 
             if enable_hero_ko is True:
-                locationNamesToRemove.append(f"{hero} - Get 1X Eliminations")
-                locationNamesToRemove.append(f"{hero} - Get 2X Eliminations")
-                locationNamesToRemove.append(f"{hero} - Get 3X Eliminations")
-                locationNamesToRemove.append(f"{hero} - Get 4X Eliminations")
-                locationNamesToRemove.append(f"{hero} - Get 5X Eliminations")   
+                locationNamesToRemove.append(f"{hero} - Get Eliminations (1)")
+                locationNamesToRemove.append(f"{hero} - Get Eliminations (2)")
+                locationNamesToRemove.append(f"{hero} - Get Eliminations (3)")
+                locationNamesToRemove.append(f"{hero} - Get Eliminations (4)")
+                locationNamesToRemove.append(f"{hero} - Get Eliminations (5)")     
             
     
     #Handling Support list
@@ -272,18 +281,18 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
             if enable_hero_ko is True:
                 for i in range(hero_ko_checks+1, MAX_HERO_KO_CHECKS):
-                    locationNamesToRemove.append(f"{st_hero} - Get {i}X Eliminations")
+                    locationNamesToRemove.append(f"{st_hero} - Get Eliminations ({i})")
         
         for hero in all_support_list:
             item = next(i for i in item_pool if i.name == hero)
             item_pool.remove(item)
 
             if enable_hero_ko is True:
-                locationNamesToRemove.append(f"{hero} - Get 1X Eliminations")
-                locationNamesToRemove.append(f"{hero} - Get 2X Eliminations")
-                locationNamesToRemove.append(f"{hero} - Get 3X Eliminations")
-                locationNamesToRemove.append(f"{hero} - Get 4X Eliminations")
-                locationNamesToRemove.append(f"{hero} - Get 5X Eliminations")   
+                locationNamesToRemove.append(f"{hero} - Get Eliminations (1)")
+                locationNamesToRemove.append(f"{hero} - Get Eliminations (2)")
+                locationNamesToRemove.append(f"{hero} - Get Eliminations (3)")
+                locationNamesToRemove.append(f"{hero} - Get Eliminations (4)")
+                locationNamesToRemove.append(f"{hero} - Get Eliminations (5)")   
 
     num_starting_heroes = get_option_value(multiworld, player, "starting_hero_number")    
     
@@ -298,6 +307,31 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         item_pool.remove(item)
         multiworld.push_precollected(item)
         hero_list.remove(st_hero)
+
+    MAX_DEATHMATCH_CHECKS = 6
+    include_deathmatch = get_option_value(multiworld, player, "include_deathmatch_checks")
+
+    if include_deathmatch > 0:
+        deathmatch_check_amount = get_option_value(multiworld, player, "deathmatch_check_amount")
+
+        include_solo_deathmatch = ((include_deathmatch == 1) or (include_deathmatch == 3))
+        include_team_deathmatch = ((include_deathmatch == 2) or (include_deathmatch == 3))
+
+        if include_solo_deathmatch:
+            for i in range(deathmatch_check_amount+1, MAX_DEATHMATCH_CHECKS):
+                    locationNamesToRemove.append(f"Solo Deathmatch - Check {i}")
+        else:
+            for i in range(1, MAX_DEATHMATCH_CHECKS):
+                locationNamesToRemove.append(f"Solo Deathmatch - Check {i}")
+        
+        if include_team_deathmatch:
+            for i in range(deathmatch_check_amount+1, MAX_DEATHMATCH_CHECKS):
+                    locationNamesToRemove.append(f"Team Deathmatch - Check {i}")
+        else:
+            for i in range(1, MAX_DEATHMATCH_CHECKS):
+                locationNamesToRemove.append(f"Team Deathmatch - Check {i}")
+
+    
 
     max_medals = get_option_value(multiworld, player, "debug_medal_amount")
     multiplier = get_option_value(multiworld, player, "required_medal_percentage")

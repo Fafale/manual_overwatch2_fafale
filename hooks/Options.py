@@ -113,7 +113,7 @@ class RequiredMedalPercentage(Range):
     range_end = 100
     default = 70
 
-class EnableHeroEliminationChecks(Toggle):
+class EnableHeroEliminationChecks(DefaultOnToggle):
     """
     Enable whether getting Eliminations with specific heroes are included in the randomizer.
     """
@@ -269,13 +269,49 @@ class AvailableHeroMasteries(OptionSet):
     valid_keys = [hero_name for hero_name in HERO_MASTERY_LIST]
     default = sorted(set([hero_name for hero_name in HERO_MASTERY_LIST]))
 
+class HeroMasteryCheckAmount(Range):
+    """
+    Can be ignored if include_hero_masteries is disabled.
+
+    Number of locations on each course from each included Hero Mastery.
+    For example, if check amount is 5, each included Hero Mastery will have 15 checks in total.
+    """
+    display_name = "Hero Mastery Check Amount"
+    range_start = 1
+    range_end = 5
+    default = 3
+
+class IncludeDeathmatchChecks(Choice):
+    """
+    Choose how the Deathmatch gamemodes are included in the randomizer.
+
+    Disabled: Deathmatch gamemodes aren't included in the randomizer.
+    Solo Only: Only the Solo Deathmatch is included in the randomizer.
+    Team Only: Only the Team Deathmatch is included in the randomizer.
+    Both: Both Solo and Team Deathmatch are included in the randomizer.
+    """
+    display_name = "Include Deathmatch Checks"
+    option_disabled = 0
+    option_solo_only = 1
+    option_team_only = 2
+    option_both = 3
+    default = 0
+
+class DeathmatchCheckAmount(Range):
+    """
+    Can be ignored if include_deathmatch_checks is disabled.
+
+    Number of locations on each included Deathmatch gamemode.
+    """
+    display_name = "Deathmatch Check Amount"
+    range_start = 1
+    range_end = 5
+    default = 3
+
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict) -> dict:
     options["debug_medal_amount"]        = DebugMedalAmount
     options["required_medal_percentage"] = RequiredMedalPercentage
-
-    options["enable_hero_elimination_checks"]   = EnableHeroEliminationChecks
-    options["hero_elimination_check_amount"]    = HeroEliminationCheckAmount
 
     options["starting_hero_number"]     = StartingHeroNumber
 
@@ -291,10 +327,16 @@ def before_options_defined(options: dict) -> dict:
     options["available_support_heroes"] = AvailableSupportHeroes#OptionSet
     options["support_heroes_amount"]    = SupportHeroesAmount   #Range
 
+    options["enable_hero_elimination_checks"]   = EnableHeroEliminationChecks   #Toggle
+    options["hero_elimination_check_amount"]    = HeroEliminationCheckAmount    #Range
+
     options["include_hero_masteries"]       = IncludeHeroMasteries      #Choice
     options["available_hero_masteries"]     = AvailableHeroMasteries    #OptionSet
     options["hero_masteries_amount"]        = HeroMasteriesAmount       #Range
+    options["hero_mastery_check_amount"]    = HeroMasteryCheckAmount    #Range
     
+    options["include_deathmatch_checks"] = IncludeDeathmatchChecks  #Choice
+    options["deathmatch_check_amount"]   = DeathmatchCheckAmount    #Range
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options

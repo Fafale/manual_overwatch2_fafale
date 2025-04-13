@@ -460,6 +460,22 @@
             ],
             "progression": true,
             "count": 3
+        },
+        {
+            "name": "Solo Deathmatch",
+            "category": [
+                "Include Deathmatch",
+                "Deathmatch Gamemodes"
+            ],
+            "progression": true
+        },
+        {
+            "name": "Team Deathmatch",
+            "category": [
+                "Include Deathmatch",
+                "Deathmatch Gamemodes"
+            ],
+            "progression": true
         }
     ]
 }
