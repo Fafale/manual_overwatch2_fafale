@@ -69,6 +69,7 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
+    locationNamesToRemove = [] # List of location names
     itemNamesToRemove = [] # List of item names
 
     enable_masteries = is_option_enabled(multiworld, player, "enable_hero_masteries")
@@ -109,9 +110,12 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             all_mastery_list.remove(hero_name)
         
         for hero_name in all_mastery_list:
-            itemNamesToRemove.append("Hero Mastery - " + hero_name)
-            itemNamesToRemove.append("Hero Mastery - " + hero_name)
-            itemNamesToRemove.append("Hero Mastery - " + hero_name)
+            itemNamesToRemove.append(f"Hero Mastery - {hero_name}")
+            itemNamesToRemove.append(f"Hero Mastery - {hero_name}")
+            itemNamesToRemove.append(f"Hero Mastery - {hero_name}")
+            locationNamesToRemove.append(f"Hero Mastery - {hero_name} - Recruit")
+            locationNamesToRemove.append(f"Hero Mastery - {hero_name} - Agent")
+            locationNamesToRemove.append(f"Hero Mastery - {hero_name} - Veteran")
         
         progressive_masteries = is_option_enabled(multiworld, player, "progressive_hero_masteries")
 
@@ -305,6 +309,14 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         item = next(i for i in item_pool if i.name == itemName)
         item_pool.remove(item)
     
+    for region in multiworld.regions:
+        if region.player == player:
+            for location in list(region.locations):
+                if location.name in locationNamesToRemove:
+                    region.locations.remove(location)
+    if hasattr(multiworld, "clear_location_cache"):
+        multiworld.clear_location_cache()
+
     return item_pool
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
