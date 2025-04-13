@@ -91,6 +91,22 @@
             "Mercy",
             "Moira",
             "Zenyatta"
+        ],
+        "Masteries":[
+            "Mercy",
+            "Reinhardt",
+            "Tracer",
+            "Sojourn",
+            "Winston",
+            "DVa",
+            "Echo",
+            "Genji",
+            "Lucio",
+            "Mei",
+            "Soldier 76",
+            "Kiriko",
+            "Cassidy",
+            "Brigitte"
         ]
     }
 }
