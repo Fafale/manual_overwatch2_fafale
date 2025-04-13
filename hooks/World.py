@@ -72,7 +72,8 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     locationNamesToRemove = [] # List of location names
     itemNamesToRemove = [] # List of item names
 
-    enable_masteries = is_option_enabled(multiworld, player, "enable_hero_masteries")
+    include_mastery_mode = get_option_value(multiworld, player, "include_hero_masteries")
+    enable_masteries = include_mastery_mode >= 1
 
     mastery_list = []
     if enable_masteries is True:
@@ -117,7 +118,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             locationNamesToRemove.append(f"Hero Mastery - {hero_name} - Agent")
             locationNamesToRemove.append(f"Hero Mastery - {hero_name} - Veteran")
         
-        progressive_masteries = is_option_enabled(multiworld, player, "progressive_hero_masteries")
+        progressive_masteries = (include_mastery_mode == 2)
 
         if progressive_masteries is False:
             for hero_name in mastery_list:

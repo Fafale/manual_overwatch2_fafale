@@ -20,7 +20,7 @@
     },
     "Hero Masteries": {
         "hidden": false,
-        "yaml_option": ["enable_hero_masteries"]
+        "yaml_option": ["include_hero_masteries"]
     },
     "Hero KO": {
         "hidden": false,

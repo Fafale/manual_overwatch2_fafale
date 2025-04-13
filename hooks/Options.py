@@ -218,40 +218,24 @@ class AvailableSupportHeroes(OptionSet):
     valid_keys = [hero_name for hero_name in SUPPORT_HERO_LIST]
     default = sorted(set([hero_name for hero_name in SUPPORT_HERO_LIST]))
 
-#class IncludeHeroMasteries(Choice):
-#    """
-#    Choose how Hero Masteries are included in the randomizer.
-#
-#    Disabled: Hero Masteries aren't included in the randomizer.
-#    Progressive: 3 Mastery items per hero, each one unlocks a course (Recruit -> Agent -> Veteran).
-#    Complete: Only 1 Mastery item per hero, which unlocks all 3 courses for that hero.
-#    """
-#    display_name = "Include Hero Masteries"
-#    option_disabled = 0
-#    option_progressive = 1
-#    option_complete = 2
-#    default = 0
-
-class EnableHeroMasteries(Toggle):
+class IncludeHeroMasteries(Choice):
     """
-    Enable whether Hero Masteries are included in the randomizer.
-    """
-    display_name = "Enable Hero Masteries"
+    Choose how Hero Masteries are included in the randomizer.
 
-class ProgressiveHeroMasteries(Toggle):
+    Disabled: Hero Masteries aren't included in the randomizer.
+    Progressive: 3 Mastery items per hero, each one unlocks a course (Recruit -> Agent -> Veteran).
+    Complete: Only 1 Mastery item per hero, which unlocks all 3 courses for that hero.
     """
-    Can be ignored if enable_hero_masteries is false.
-
-    Choose whether each Hero Mastery item will unlock all courses for that hero, or only one at a time.
-
-    If true: 3 Mastery items per hero, each one unlocks a course (Recruit -> Agent -> Veteran).
-    If false: Only 1 Mastery item per hero, which unlocks all 3 courses for that hero.
-    """
-    display_name = "Progressive Hero Masteries"
+    display_name = "Include Hero Masteries"
+    option_disabled = 0
+    option_progressive = 1
+    option_complete = 2
+    default = 0
 
 class HeroMasteriesAmount(Range):
     """
-    Can be ignored if enable_hero_masteries is false.
+    Can be ignored if include_hero_masteries is disabled.
+
 
     Total amount of Hero Masteries that can appear in the item pool.
     """
@@ -262,7 +246,7 @@ class HeroMasteriesAmount(Range):
 
 class AvailableHeroMasteries(OptionSet):
     """
-    Can be ignored if enable_hero_masteries is false.
+    Can be ignored if include_hero_masteries is disabled.
 
     
     List of available heroes that can appear in the item pool.
@@ -295,9 +279,7 @@ def before_options_defined(options: dict) -> dict:
     options["available_support_heroes"] = AvailableSupportHeroes#OptionSet
     options["support_heroes_amount"]    = SupportHeroesAmount   #Range
 
-    #options["include_hero_masteries"]       = IncludeHeroMasteries #Choice
-    options["enable_hero_masteries"]        = EnableHeroMasteries       #Toggle
-    options["progressive_hero_masteries"]   = ProgressiveHeroMasteries  #Toggle
+    options["include_hero_masteries"]       = IncludeHeroMasteries      #Choice
     options["available_hero_masteries"]     = AvailableHeroMasteries    #OptionSet
     options["hero_masteries_amount"]        = HeroMasteriesAmount       #Range
     
