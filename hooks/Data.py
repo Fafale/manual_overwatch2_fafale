@@ -43,13 +43,13 @@ def after_load_location_file(location_table: list) -> list:
         location["victory"] = True
         location_table.append(location)
     
-    csvFile = csv.DictReader(pkgutil.get_data(__name__, "locations.csv").decode().splitlines(), delimiter=';')
+    csvFile = csv.DictReader(pkgutil.get_data(__name__, "locations.csv").decode().splitlines(), delimiter=',')
     for line in csvFile:
         if line["name"] == "":
             continue
         location = {}
         location["name"] = line["name"]
-        location["category"] = line["category"].split(", ")
+        location["category"] = line["category"].split("; ")
         if line["requires"] != "":
             location["requires"] = line["requires"]
         else:

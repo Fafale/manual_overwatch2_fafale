@@ -59,6 +59,24 @@ SUPPORT_HERO_LIST = [
 ]
 SUPPORT_HERO_AMOUNT = len(SUPPORT_HERO_LIST)
 
+HERO_MASTERY_LIST = [
+    "Mercy",
+    "Reinhardt",
+    "Tracer",
+    "Sojourn",
+    "Winston",
+    "DVa",
+    "Echo",
+    "Genji",
+    "Lucio",
+    "Mei",
+    "Soldier 76",
+    "Kiriko",
+    "Cassidy",
+    "Brigitte"
+]
+HERO_MASTERY_AMOUNT = len(HERO_MASTERY_LIST)
+
 ####################################################################
 # NOTE: At the time that options are created, Manual has no concept of the multiworld or its own world.
 #       Options are defined before the world is even created.
@@ -94,12 +112,6 @@ class RequiredMedalPercentage(Range):
     range_start = 50
     range_end = 100
     default = 70
-
-class EnableHeroMasteries(Toggle):
-    """
-    Enable whether Hero Masteries are included in the randomizer.
-    """
-    display_name = "Enable Hero Masteries"
 
 class EnableHeroKO(Toggle):
     """
@@ -140,7 +152,7 @@ class AvailableTankHeroes(OptionSet):
     List of available heroes that can appear in the item pool.
     To avoid errors, emptying this list will work the same as if it's complete.
 
-    Attention: D.Va = DVa
+    Attention: "D.Va" = "DVa"
     """
     display_name = "Available Tank Heroes"
     valid_keys = [hero_name for hero_name in TANK_HERO_LIST]
@@ -170,7 +182,7 @@ class AvailableDamageHeroes(OptionSet):
     List of available heroes that can appear in the item pool.
     To avoid errors, emptying this list will work the same as if it's complete.
 
-    Attention: Torbjörn = Torbjorn, Soldier: 76 = Soldier 76
+    Attention: "Torbjörn" = "Torbjorn", "Soldier: 76" = "Soldier 76"
     """
     display_name = "Available Damage Heroes"
     valid_keys = [hero_name for hero_name in DAMAGE_HERO_LIST]
@@ -200,20 +212,73 @@ class AvailableSupportHeroes(OptionSet):
     List of available heroes that can appear in the item pool.
     To avoid errors, emptying this list will work the same as if it's complete.
 
-    Attention: Lúcio = Lucio
+    Attention: "Lúcio" = "Lucio"
     """
     display_name = "Available Support Heroes"
     valid_keys = [hero_name for hero_name in SUPPORT_HERO_LIST]
     default = sorted(set([hero_name for hero_name in SUPPORT_HERO_LIST]))
 
+#class IncludeHeroMasteries(Choice):
+#    """
+#    Choose how Hero Masteries are included in the randomizer.
+#
+#    Disabled: Hero Masteries aren't included in the randomizer.
+#    Progressive: 3 Mastery items per hero, each one unlocks a course (Recruit -> Agent -> Veteran).
+#    Complete: Only 1 Mastery item per hero, which unlocks all 3 courses for that hero.
+#    """
+#    display_name = "Include Hero Masteries"
+#    option_disabled = 0
+#    option_progressive = 1
+#    option_complete = 2
+#    default = 0
 
+class EnableHeroMasteries(Toggle):
+    """
+    Enable whether Hero Masteries are included in the randomizer.
+    """
+    display_name = "Enable Hero Masteries"
+
+class ProgressiveHeroMasteries(Toggle):
+    """
+    Can be ignored if enable_hero_masteries is false.
+
+    Choose whether each Hero Mastery item will unlock all courses for that hero, or only one at a time.
+
+    If true: 3 Mastery items per hero, each one unlocks a course (Recruit -> Agent -> Veteran).
+    If false: Only 1 Mastery item per hero, which unlocks all 3 courses for that hero.
+    """
+    display_name = "Progressive Hero Masteries"
+
+class HeroMasteriesAmount(Range):
+    """
+    Can be ignored if enable_hero_masteries is false.
+
+    Total amount of Hero Masteries that can appear in the item pool.
+    """
+    display_name = "Hero Masteries Amount"
+    range_start = 1
+    range_end = HERO_MASTERY_AMOUNT
+    default = HERO_MASTERY_AMOUNT
+
+class AvailableHeroMasteries(OptionSet):
+    """
+    Can be ignored if enable_hero_masteries is false.
+
+    
+    List of available heroes that can appear in the item pool.
+    To avoid errors, emptying this list will work the same as if it's complete.
+
+    Attention: "D.Va" = "DVa", "Soldier: 76" = "Soldier 76", "Lúcio" = "Lucio"
+    """
+    display_name = "Available Hero Masteries"
+    valid_keys = [hero_name for hero_name in HERO_MASTERY_LIST]
+    default = sorted(set([hero_name for hero_name in HERO_MASTERY_LIST]))
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict) -> dict:
     options["debug_medal_amount"]        = DebugMedalAmount
     options["required_medal_percentage"] = RequiredMedalPercentage
 
-    #options["enable_hero_masteries"]    = EnableHeroMasteries
     options["enable_hero_ko"]           = EnableHeroKO
 
     options["starting_hero_number"]     = StartingHeroNumber
@@ -230,6 +295,11 @@ def before_options_defined(options: dict) -> dict:
     options["available_support_heroes"] = AvailableSupportHeroes#OptionSet
     options["support_heroes_amount"]    = SupportHeroesAmount   #Range
 
+    #options["include_hero_masteries"]       = IncludeHeroMasteries #Choice
+    options["enable_hero_masteries"]        = EnableHeroMasteries       #Toggle
+    options["progressive_hero_masteries"]   = ProgressiveHeroMasteries  #Toggle
+    options["available_hero_masteries"]     = AvailableHeroMasteries    #OptionSet
+    options["hero_masteries_amount"]        = HeroMasteriesAmount       #Range
     
     return options
 

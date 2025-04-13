@@ -71,100 +71,177 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     itemNamesToRemove = [] # List of item names
 
+    enable_masteries = is_option_enabled(multiworld, player, "enable_hero_masteries")
+
+    mastery_list = []
+    if enable_masteries is True:
+        all_mastery_list = [
+            "Mercy",
+            "Reinhardt",
+            "Tracer",
+            "Sojourn",
+            "Winston",
+            "DVa",
+            "Echo",
+            "Genji",
+            "Lucio",
+            "Mei",
+            "Soldier 76",
+            "Kiriko",
+            "Cassidy",
+            "Brigitte"
+        ]
+
+        available_mastery_list = []
+        if len(get_option_value(multiworld, player, "available_hero_masteries")) > 0:
+            available_mastery_list.extend(get_option_value(multiworld, player, "available_hero_masteries"))
+        else:
+            available_mastery_list.extend(all_mastery_list)
+        
+        num_included_masteries = min(get_option_value(multiworld, player, "hero_masteries_amount"), len(available_mastery_list))
+
+        for _ in range(num_included_masteries):
+            hero_name = random.choice(list(available_mastery_list))
+
+            mastery_list.append(hero_name)
+
+            available_mastery_list.remove(hero_name)
+            all_mastery_list.remove(hero_name)
+        
+        for hero_name in all_mastery_list:
+            itemNamesToRemove.append("Hero Mastery - " + hero_name)
+            itemNamesToRemove.append("Hero Mastery - " + hero_name)
+            itemNamesToRemove.append("Hero Mastery - " + hero_name)
+        
+        progressive_masteries = is_option_enabled(multiworld, player, "progressive_hero_masteries")
+
+        if progressive_masteries is False:
+            for hero_name in mastery_list:
+                itemNamesToRemove.append("Hero Mastery - " + hero_name)
+                itemNamesToRemove.append("Hero Mastery - " + hero_name)
+
+
     include_tanks = is_option_enabled(multiworld, player, "include_tank_heroes")
     include_damages = is_option_enabled(multiworld, player, "include_damage_heroes")
     include_supports = is_option_enabled(multiworld, player, "include_support_heroes")
 
+
+    #Handling Tank list
     tank_list = []
     if include_tanks is True:
-        if len(get_option_value(multiworld, player, "available_tank_heroes")) > 0:
-            tank_list.extend(get_option_value(multiworld, player, "available_tank_heroes"))
-        else:
-            tank_list.extend([
-                "DVa",
-                "Doomfist",
-                "Hazard",
-                "Junker Queen",
-                "Mauga",
-                "Orisa",
-                "Ramattra",
-                "Reinhardt",
-                "Roadhog",
-                "Sigma",
-                "Winston",
-                "Wrecking Ball",
-                "Zarya"
-            ])
-        
-        num_included_tanks = get_option_value(multiworld, player, "tank_heroes_amount")
-        num_excluded_tanks = len(tank_list) if len(tank_list) < num_included_tanks else len(tank_list) - num_included_tanks
-        for _ in range(num_excluded_tanks):
-            st_hero = random.choice(list(tank_list))
-            item = next(i for i in item_pool if i.name == st_hero)
-            item_pool.remove(item)
-            tank_list.remove(st_hero)
+        all_tank_list = [
+            "DVa",
+            "Doomfist",
+            "Hazard",
+            "Junker Queen",
+            "Mauga",
+            "Orisa",
+            "Ramattra",
+            "Reinhardt",
+            "Roadhog",
+            "Sigma",
+            "Winston",
+            "Wrecking Ball",
+            "Zarya"
+        ]
 
+        available_tank_list = []
+        if len(get_option_value(multiworld, player, "available_tank_heroes")) > 0:
+            available_tank_list.extend(get_option_value(multiworld, player, "available_tank_heroes"))
+        else:
+            available_tank_list.extend(all_tank_list)
+        
+        num_included_tanks = min(get_option_value(multiworld, player, "tank_heroes_amount"), len(available_tank_list))
+        
+        for _ in range(num_included_tanks):
+            st_hero = random.choice(list(available_tank_list))
+            tank_list.append(st_hero)
+            available_tank_list.remove(st_hero)
+            all_tank_list.remove(st_hero)
+        
+        for hero in all_tank_list:
+            item = next(i for i in item_pool if i.name == hero)
+            item_pool.remove(item)
+
+
+
+    #Handling Damage list
     damage_list = []
     if include_damages is True:
-        if len(get_option_value(multiworld, player, "available_damage_heroes")) > 0:
-            damage_list.extend(get_option_value(multiworld, player, "available_damage_heroes"))
-        else:
-            damage_list.extend([
-                "Ashe",
-                "Bastion",
-                "Cassidy",
-                "Echo",
-                "Genji",
-                "Hanzo",
-                "Junkrat",
-                "Mei",
-                "Pharah",
-                "Reaper",
-                "Sojourn",
-                "Soldier 76",
-                "Sombra",
-                "Symmetra",
-                "Torbjorn",
-                "Tracer",
-                "Venture",
-                "Widowmaker"
-            ])
+        all_damage_list = [
+            "Ashe",
+            "Bastion",
+            "Cassidy",
+            "Echo",
+            "Genji",
+            "Hanzo",
+            "Junkrat",
+            "Mei",
+            "Pharah",
+            "Reaper",
+            "Sojourn",
+            "Soldier 76",
+            "Sombra",
+            "Symmetra",
+            "Torbjorn",
+            "Tracer",
+            "Venture",
+            "Widowmaker"
+        ]
 
-        num_included_damages = get_option_value(multiworld, player, "damage_heroes_amount")
-        num_excluded_damages = len(damage_list) if len(damage_list) < num_included_damages else len(damage_list) - num_included_damages
-        for _ in range(num_excluded_damages):
-            st_hero = random.choice(list(damage_list))
-            item = next(i for i in item_pool if i.name == st_hero)
+        available_damage_list = []
+        if len(get_option_value(multiworld, player, "available_damage_heroes")) > 0:
+            available_damage_list.extend(get_option_value(multiworld, player, "available_damage_heroes"))
+        else:
+            available_damage_list.extend(all_damage_list)
+        
+        num_included_damages = min(get_option_value(multiworld, player, "damage_heroes_amount"), len(available_damage_list))
+        
+        for _ in range(num_included_damages):
+            st_hero = random.choice(list(available_damage_list))
+            damage_list.append(st_hero)
+            available_damage_list.remove(st_hero)
+            all_damage_list.remove(st_hero)
+        
+        for hero in all_damage_list:
+            item = next(i for i in item_pool if i.name == hero)
             item_pool.remove(item)
-            damage_list.remove(st_hero)
             
     
+    #Handling Support list
     support_list = []
     if include_supports is True:
+        all_support_list = [
+            "Ana",
+            "Baptiste",
+            "Brigitte",
+            "Illari",
+            "Juno",
+            "Kiriko",
+            "Lifeweaver",
+            "Lucio",
+            "Mercy",
+            "Moira",
+            "Zenyatta"
+        ]
+
+        available_support_list = []
         if len(get_option_value(multiworld, player, "available_support_heroes")) > 0:
-            support_list.extend(get_option_value(multiworld, player, "available_support_heroes"))
+            available_support_list.extend(get_option_value(multiworld, player, "available_support_heroes"))
         else:
-            support_list.extend([
-                "Ana",
-                "Baptiste",
-                "Brigitte",
-                "Illari",
-                "Juno",
-                "Kiriko",
-                "Lifeweaver",
-                "Lucio",
-                "Mercy",
-                "Moira",
-                "Zenyatta"
-            ])
+            available_support_list.extend(all_support_list)
         
-        num_included_supports = get_option_value(multiworld, player, "support_heroes_amount")
-        num_excluded_supports = len(support_list) if len(support_list) < num_included_supports else len(support_list) - num_included_supports
-        for _ in range(num_excluded_supports):
-            st_hero = random.choice(list(support_list))
-            item = next(i for i in item_pool if i.name == st_hero)
+        num_included_supports = min(get_option_value(multiworld, player, "support_heroes_amount"), len(available_support_list))
+        
+        for _ in range(num_included_supports):
+            st_hero = random.choice(list(available_support_list))
+            support_list.append(st_hero)
+            available_support_list.remove(st_hero)
+            all_support_list.remove(st_hero)
+        
+        for hero in all_support_list:
+            item = next(i for i in item_pool if i.name == hero)
             item_pool.remove(item)
-            support_list.remove(st_hero)
 
     num_starting_heroes = get_option_value(multiworld, player, "starting_hero_number")    
     
@@ -219,7 +296,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
                     pass
     
     # Remove items from the pool
-    debug = True
+    debug = False
     if debug:
         print("Removing items from pool:")
     for itemName in itemNamesToRemove:

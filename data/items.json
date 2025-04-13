@@ -348,6 +348,118 @@
                 "Support Heroes"
             ],
             "progression": true
+        },
+        {
+            "name": "Hero Mastery - Mercy",
+            "category": [
+                "Hero Masteries"
+            ],
+            "progression": true,
+            "count": 3
+        },
+        {
+            "name": "Hero Mastery - Reinhardt",
+            "category": [
+                "Hero Masteries"
+            ],
+            "progression": true,
+            "count": 3
+        },
+        {
+            "name": "Hero Mastery - Tracer",
+            "category": [
+                "Hero Masteries"
+            ],
+            "progression": true,
+            "count": 3
+        },
+        {
+            "name": "Hero Mastery - Sojourn",
+            "category": [
+                "Hero Masteries"
+            ],
+            "progression": true,
+            "count": 3
+        },
+        {
+            "name": "Hero Mastery - Winston",
+            "category": [
+                "Hero Masteries"
+            ],
+            "progression": true,
+            "count": 3
+        },
+        {
+            "name": "Hero Mastery - DVa",
+            "category": [
+                "Hero Masteries"
+            ],
+            "progression": true,
+            "count": 3
+        },
+        {
+            "name": "Hero Mastery - Echo",
+            "category": [
+                "Hero Masteries"
+            ],
+            "progression": true,
+            "count": 3
+        },
+        {
+            "name": "Hero Mastery - Genji",
+            "category": [
+                "Hero Masteries"
+            ],
+            "progression": true,
+            "count": 3
+        },
+        {
+            "name": "Hero Mastery - Lucio",
+            "category": [
+                "Hero Masteries"
+            ],
+            "progression": true,
+            "count": 3
+        },
+        {
+            "name": "Hero Mastery - Mei",
+            "category": [
+                "Hero Masteries"
+            ],
+            "progression": true,
+            "count": 3
+        },
+        {
+            "name": "Hero Mastery - Soldier 76",
+            "category": [
+                "Hero Masteries"
+            ],
+            "progression": true,
+            "count": 3
+        },
+        {
+            "name": "Hero Mastery - Kiriko",
+            "category": [
+                "Hero Masteries"
+            ],
+            "progression": true,
+            "count": 3
+        },
+        {
+            "name": "Hero Mastery - Cassidy",
+            "category": [
+                "Hero Masteries"
+            ],
+            "progression": true,
+            "count": 3
+        },
+        {
+            "name": "Hero Mastery - Brigitte",
+            "category": [
+                "Hero Masteries"
+            ],
+            "progression": true,
+            "count": 3
         }
     ]
 }

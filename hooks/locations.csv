@@ -1,61 +1,103 @@
-name;category;requires
-KO enemy DVa;Hero KO;
-KO enemy Doomfist;Hero KO;
-KO enemy Hazard;Hero KO;
-KO enemy Junker Queen;Hero KO;
-KO enemy Mauga;Hero KO;
-KO enemy Orisa;Hero KO;
-KO enemy Ramattra;Hero KO;
-KO enemy Reinhardt;Hero KO;
-KO enemy Roadhog;Hero KO;
-KO enemy Sigma;Hero KO;
-KO enemy Winston;Hero KO;
-KO enemy Wrecking Ball;Hero KO;
-KO enemy Zarya;Hero KO;
-KO enemy Ashe;Hero KO;
-KO enemy Bastion;Hero KO;
-KO enemy Cassidy;Hero KO;
-KO enemy Echo;Hero KO;
-KO enemy Genji;Hero KO;
-KO enemy Hanzo;Hero KO;
-KO enemy Junkrat;Hero KO;
-KO enemy Mei;Hero KO;
-KO enemy Pharah;Hero KO;
-KO enemy Reaper;Hero KO;
-KO enemy Sojourn;Hero KO;
-KO enemy Soldier 76;Hero KO;
-KO enemy Sombra;Hero KO;
-KO enemy Symmetra;Hero KO;
-KO enemy Torbjorn;Hero KO;
-KO enemy Tracer;Hero KO;
-KO enemy Venture;Hero KO;
-KO enemy Widowmaker;Hero KO;
-KO enemy Ana;Hero KO;
-KO enemy Baptiste;Hero KO;
-KO enemy Brigitte;Hero KO;
-KO enemy Illari;Hero KO;
-KO enemy Juno;Hero KO;
-KO enemy Kiriko;Hero KO;
-KO enemy Lifeweaver;Hero KO;
-KO enemy Lucio;Hero KO;
-KO enemy Mercy;Hero KO;
-KO enemy Moira;Hero KO;
-KO enemy Zenyatta;Hero KO;
-Win Control as Tank Role;Win as Tank;|@Tank Heroes:1|
-Win Escort as Tank Role;Win as Tank;|@Tank Heroes:1|
-Win Flashpoint as Tank Role;Win as Tank;|@Tank Heroes:1|
-Win Hybrid as Tank Role;Win as Tank;|@Tank Heroes:1|
-Win Push as Tank Role;Win as Tank;|@Tank Heroes:1|
-Win Clash as Tank Role;Win as Tank;|@Tank Heroes:1|
-Win Control as Damage Role;Win as Damage;|@Damage Heroes:1|
-Win Escort as Damage Role;Win as Damage;|@Damage Heroes:1|
-Win Flashpoint as Damage Role;Win as Damage;|@Damage Heroes:1|
-Win Hybrid as Damage Role;Win as Damage;|@Damage Heroes:1|
-Win Push as Damage Role;Win as Damage;|@Damage Heroes:1|
-Win Clash as Damage Role;Win as Damage;|@Damage Heroes:1|
-Win Control as Support Role;Win as Support;|@Support Heroes:1|
-Win Escort as Support Role;Win as Support;|@Support Heroes:1|
-Win Flashpoint as Support Role;Win as Support;|@Support Heroes:1|
-Win Hybrid as Support Role;Win as Support;|@Support Heroes:1|
-Win Push as Support Role;Win as Support;|@Support Heroes:1|
-Win Clash as Support Role;Win as Support;|@Support Heroes:1|
+name,category,requires
+KO enemy DVa,Hero KO,
+KO enemy Doomfist,Hero KO,
+KO enemy Hazard,Hero KO,
+KO enemy Junker Queen,Hero KO,
+KO enemy Mauga,Hero KO,
+KO enemy Orisa,Hero KO,
+KO enemy Ramattra,Hero KO,
+KO enemy Reinhardt,Hero KO,
+KO enemy Roadhog,Hero KO,
+KO enemy Sigma,Hero KO,
+KO enemy Winston,Hero KO,
+KO enemy Wrecking Ball,Hero KO,
+KO enemy Zarya,Hero KO,
+KO enemy Ashe,Hero KO,
+KO enemy Bastion,Hero KO,
+KO enemy Cassidy,Hero KO,
+KO enemy Echo,Hero KO,
+KO enemy Genji,Hero KO,
+KO enemy Hanzo,Hero KO,
+KO enemy Junkrat,Hero KO,
+KO enemy Mei,Hero KO,
+KO enemy Pharah,Hero KO,
+KO enemy Reaper,Hero KO,
+KO enemy Sojourn,Hero KO,
+KO enemy Soldier 76,Hero KO,
+KO enemy Sombra,Hero KO,
+KO enemy Symmetra,Hero KO,
+KO enemy Torbjorn,Hero KO,
+KO enemy Tracer,Hero KO,
+KO enemy Venture,Hero KO,
+KO enemy Widowmaker,Hero KO,
+KO enemy Ana,Hero KO,
+KO enemy Baptiste,Hero KO,
+KO enemy Brigitte,Hero KO,
+KO enemy Illari,Hero KO,
+KO enemy Juno,Hero KO,
+KO enemy Kiriko,Hero KO,
+KO enemy Lifeweaver,Hero KO,
+KO enemy Lucio,Hero KO,
+KO enemy Mercy,Hero KO,
+KO enemy Moira,Hero KO,
+KO enemy Zenyatta,Hero KO,
+Win Control as Tank Role,Win as Tank; Tank Heroes,|@Tank Heroes:1|
+Win Escort as Tank Role,Win as Tank; Tank Heroes,|@Tank Heroes:1|
+Win Flashpoint as Tank Role,Win as Tank; Tank Heroes,|@Tank Heroes:1|
+Win Hybrid as Tank Role,Win as Tank; Tank Heroes,|@Tank Heroes:1|
+Win Push as Tank Role,Win as Tank; Tank Heroes,|@Tank Heroes:1|
+Win Clash as Tank Role,Win as Tank; Tank Heroes,|@Tank Heroes:1|
+Win Control as Damage Role,Win as Damage; Damage Heroes,|@Damage Heroes:1|
+Win Escort as Damage Role,Win as Damage; Damage Heroes,|@Damage Heroes:1|
+Win Flashpoint as Damage Role,Win as Damage; Damage Heroes,|@Damage Heroes:1|
+Win Hybrid as Damage Role,Win as Damage; Damage Heroes,|@Damage Heroes:1|
+Win Push as Damage Role,Win as Damage; Damage Heroes,|@Damage Heroes:1|
+Win Clash as Damage Role,Win as Damage; Damage Heroes,|@Damage Heroes:1|
+Win Control as Support Role,Win as Support; Support Heroes,|@Support Heroes:1|
+Win Escort as Support Role,Win as Support; Support Heroes,|@Support Heroes:1|
+Win Flashpoint as Support Role,Win as Support; Support Heroes,|@Support Heroes:1|
+Win Hybrid as Support Role,Win as Support; Support Heroes,|@Support Heroes:1|
+Win Push as Support Role,Win as Support; Support Heroes,|@Support Heroes:1|
+Win Clash as Support Role,Win as Support; Support Heroes,|@Support Heroes:1|
+Hero Mastery - Mercy - Recruit,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mercy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mercy:1|)
+Hero Mastery - Mercy - Agent,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mercy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mercy:2|)
+Hero Mastery - Mercy - Veteran,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mercy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mercy:3|)
+Hero Mastery - Reinhardt - Recruit,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt:1|)
+Hero Mastery - Reinhardt - Agent,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt:2|)
+Hero Mastery - Reinhardt - Veteran,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt:3|)
+Hero Mastery - Tracer - Recruit,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Tracer|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Tracer:1|)
+Hero Mastery - Tracer - Agent,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Tracer|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Tracer:2|)
+Hero Mastery - Tracer - Veteran,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Tracer|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Tracer:3|)
+Hero Mastery - Sojourn - Recruit,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn:1|)
+Hero Mastery - Sojourn - Agent,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn:2|)
+Hero Mastery - Sojourn - Veteran,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn:3|)
+Hero Mastery - Winston - Recruit,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Winston|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Winston:1|)
+Hero Mastery - Winston - Agent,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Winston|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Winston:2|)
+Hero Mastery - Winston - Veteran,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Winston|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Winston:3|)
+Hero Mastery - DVa - Recruit,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - DVa|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - DVa:1|)
+Hero Mastery - DVa - Agent,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - DVa|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - DVa:2|)
+Hero Mastery - DVa - Veteran,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - DVa|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - DVa:3|)
+Hero Mastery - Echo - Recruit,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Echo|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Echo:1|)
+Hero Mastery - Echo - Agent,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Echo|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Echo:2|)
+Hero Mastery - Echo - Veteran,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Echo|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Echo:3|)
+Hero Mastery - Genji - Recruit,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Genji|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Genji:1|)
+Hero Mastery - Genji - Agent,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Genji|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Genji:2|)
+Hero Mastery - Genji - Veteran,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Genji|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Genji:3|)
+Hero Mastery - Lucio - Recruit,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Lucio|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Lucio:1|)
+Hero Mastery - Lucio - Agent,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Lucio|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Lucio:2|)
+Hero Mastery - Lucio - Veteran,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Lucio|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Lucio:3|)
+Hero Mastery - Mei - Recruit,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mei|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mei:1|)
+Hero Mastery - Mei - Agent,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mei|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mei:2|)
+Hero Mastery - Mei - Veteran,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mei|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mei:3|)
+Hero Mastery - Soldier 76 - Recruit,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76:1|)
+Hero Mastery - Soldier 76 - Agent,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76:2|)
+Hero Mastery - Soldier 76 - Veteran,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76:3|)
+Hero Mastery - Kiriko - Recruit,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko:1|)
+Hero Mastery - Kiriko - Agent,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko:2|)
+Hero Mastery - Kiriko - Veteran,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko:3|)
+Hero Mastery - Cassidy - Recruit,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy:1|)
+Hero Mastery - Cassidy - Agent,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy:2|)
+Hero Mastery - Cassidy - Veteran,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy:3|)
+Hero Mastery - Brigitte - Recruit,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte:1|)
+Hero Mastery - Brigitte - Agent,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte:2|)
+Hero Mastery - Brigitte - Veteran,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte:3|)
