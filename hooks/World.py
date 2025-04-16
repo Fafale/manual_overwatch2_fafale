@@ -30,6 +30,8 @@ import logging
 ## The fill_slot_data method will be used to send data to the Manual client for later use, like deathlink.
 ########################################################################################
 
+final_includes_ow2 = {}
+
 def manual_overwatch2_define_max_medals(multiworld: MultiWorld, player: int, print_log: bool):
     TANK_HERO_AMOUNT = 13
     DAMAGE_HERO_AMOUNT = 18
@@ -151,6 +153,13 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
+    final_includes_ow2[player] = {
+        'tanks':[],
+        'damages':[],
+        'supports':[],
+        'masteries':[]
+    }
+    
     locationNamesToRemove = [] # List of location names
     itemNamesToRemove = [] # List of item names
 
@@ -194,6 +203,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         for _ in range(num_included_masteries):
             hero_name = random.choice(list(available_mastery_list))
 
+            final_includes_ow2[player]['masteries'].append(hero_name)
             mastery_list.append(hero_name)
 
             available_mastery_list.remove(hero_name)
@@ -255,7 +265,10 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         
         for _ in range(num_included_tanks):
             st_hero = random.choice(list(available_tank_list))
+
+            final_includes_ow2[player]['tanks'].append(st_hero)
             tank_list.append(st_hero)
+
             available_tank_list.remove(st_hero)
             all_tank_list.remove(st_hero)
 
@@ -310,7 +323,10 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         
         for _ in range(num_included_damages):
             st_hero = random.choice(list(available_damage_list))
+
+            final_includes_ow2[player]['damages'].append(st_hero)
             damage_list.append(st_hero)
+
             available_damage_list.remove(st_hero)
             all_damage_list.remove(st_hero)
             
@@ -357,7 +373,10 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         
         for _ in range(num_included_supports):
             st_hero = random.choice(list(available_support_list))
+
+            final_includes_ow2[player]['supports'].append(st_hero)
             support_list.append(st_hero)
+
             available_support_list.remove(st_hero)
             all_support_list.remove(st_hero)
 
@@ -547,6 +566,8 @@ def before_fill_slot_data(slot_data: dict, world: World, multiworld: MultiWorld,
 
 # This is called after slot data is set and provides the slot data at the time, in case you want to check and modify it after Manual is done with it
 def after_fill_slot_data(slot_data: dict, world: World, multiworld: MultiWorld, player: int) -> dict:
+    slot_data['final_includes'] = final_includes_ow2[player]
+    
     return slot_data
 
 # This is called right at the end, in case you want to write stuff to the spoiler log
