@@ -1,6 +1,6 @@
 from typing import Optional
 from worlds.AutoWorld import World
-from ..Helpers import clamp, get_items_with_value
+from ..Helpers import clamp, get_items_with_value, get_option_value
 from BaseClasses import MultiWorld, CollectionState
 
 import re
@@ -27,3 +27,11 @@ def anyClassLevel(world: World, multiworld: MultiWorld, state: CollectionState, 
 def requiresMelee(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
     """Returns a requires string that checks if the player has unlocked the tank."""
     return "|Figher Level:15| or |Black Belt Level:15| or |Thief Level:15|"
+
+def setHeroMasteryRequirement(world: World, multiworld: MultiWorld, state: CollectionState, player: int, progressive_num: str):
+    mastery_choice = get_option_value(multiworld, player, "include_hero_masteries")
+
+    if mastery_choice == 1: #Progressive
+        return progressive_num
+    else: #Complete (1) or Disabled (Doesn't matter)
+        return "1"

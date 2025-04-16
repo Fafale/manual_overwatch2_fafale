@@ -237,213 +237,213 @@ Team Deathmatch - Check 2,Deathmatch Locations; Include Deathmatch,|Team Deathma
 Team Deathmatch - Check 3,Deathmatch Locations; Include Deathmatch,|Team Deathmatch|
 Team Deathmatch - Check 4,Deathmatch Locations; Include Deathmatch,|Team Deathmatch|
 Team Deathmatch - Check 5,Deathmatch Locations; Include Deathmatch,|Team Deathmatch|
-Hero Mastery - Mercy - Recruit - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mercy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mercy:1|)
-Hero Mastery - Mercy - Recruit - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mercy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mercy:1|)
-Hero Mastery - Mercy - Recruit - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mercy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mercy:1|)
-Hero Mastery - Mercy - Recruit - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mercy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mercy:1|)
-Hero Mastery - Mercy - Recruit - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mercy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mercy:1|)
-Hero Mastery - Mercy - Agent - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mercy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mercy:2|)
-Hero Mastery - Mercy - Agent - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mercy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mercy:2|)
-Hero Mastery - Mercy - Agent - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mercy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mercy:2|)
-Hero Mastery - Mercy - Agent - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mercy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mercy:2|)
-Hero Mastery - Mercy - Agent - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mercy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mercy:2|)
-Hero Mastery - Mercy - Veteran - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mercy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mercy:3|)
-Hero Mastery - Mercy - Veteran - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mercy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mercy:3|)
-Hero Mastery - Mercy - Veteran - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mercy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mercy:3|)
-Hero Mastery - Mercy - Veteran - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mercy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mercy:3|)
-Hero Mastery - Mercy - Veteran - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mercy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mercy:3|)
-Hero Mastery - Reinhardt - Recruit - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt:1|)
-Hero Mastery - Reinhardt - Recruit - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt:1|)
-Hero Mastery - Reinhardt - Recruit - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt:1|)
-Hero Mastery - Reinhardt - Recruit - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt:1|)
-Hero Mastery - Reinhardt - Recruit - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt:1|)
-Hero Mastery - Reinhardt - Agent - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt:2|)
-Hero Mastery - Reinhardt - Agent - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt:2|)
-Hero Mastery - Reinhardt - Agent - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt:2|)
-Hero Mastery - Reinhardt - Agent - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt:2|)
-Hero Mastery - Reinhardt - Agent - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt:2|)
-Hero Mastery - Reinhardt - Veteran - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt:3|)
-Hero Mastery - Reinhardt - Veteran - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt:3|)
-Hero Mastery - Reinhardt - Veteran - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt:3|)
-Hero Mastery - Reinhardt - Veteran - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt:3|)
-Hero Mastery - Reinhardt - Veteran - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Reinhardt:3|)
-Hero Mastery - Tracer - Recruit - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Tracer|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Tracer:1|)
-Hero Mastery - Tracer - Recruit - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Tracer|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Tracer:1|)
-Hero Mastery - Tracer - Recruit - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Tracer|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Tracer:1|)
-Hero Mastery - Tracer - Recruit - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Tracer|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Tracer:1|)
-Hero Mastery - Tracer - Recruit - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Tracer|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Tracer:1|)
-Hero Mastery - Tracer - Agent - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Tracer|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Tracer:2|)
-Hero Mastery - Tracer - Agent - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Tracer|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Tracer:2|)
-Hero Mastery - Tracer - Agent - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Tracer|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Tracer:2|)
-Hero Mastery - Tracer - Agent - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Tracer|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Tracer:2|)
-Hero Mastery - Tracer - Agent - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Tracer|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Tracer:2|)
-Hero Mastery - Tracer - Veteran - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Tracer|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Tracer:3|)
-Hero Mastery - Tracer - Veteran - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Tracer|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Tracer:3|)
-Hero Mastery - Tracer - Veteran - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Tracer|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Tracer:3|)
-Hero Mastery - Tracer - Veteran - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Tracer|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Tracer:3|)
-Hero Mastery - Tracer - Veteran - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Tracer|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Tracer:3|)
-Hero Mastery - Sojourn - Recruit - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn:1|)
-Hero Mastery - Sojourn - Recruit - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn:1|)
-Hero Mastery - Sojourn - Recruit - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn:1|)
-Hero Mastery - Sojourn - Recruit - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn:1|)
-Hero Mastery - Sojourn - Recruit - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn:1|)
-Hero Mastery - Sojourn - Agent - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn:2|)
-Hero Mastery - Sojourn - Agent - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn:2|)
-Hero Mastery - Sojourn - Agent - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn:2|)
-Hero Mastery - Sojourn - Agent - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn:2|)
-Hero Mastery - Sojourn - Agent - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn:2|)
-Hero Mastery - Sojourn - Veteran - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn:3|)
-Hero Mastery - Sojourn - Veteran - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn:3|)
-Hero Mastery - Sojourn - Veteran - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn:3|)
-Hero Mastery - Sojourn - Veteran - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn:3|)
-Hero Mastery - Sojourn - Veteran - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Sojourn:3|)
-Hero Mastery - Winston - Recruit - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Winston|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Winston:1|)
-Hero Mastery - Winston - Recruit - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Winston|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Winston:1|)
-Hero Mastery - Winston - Recruit - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Winston|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Winston:1|)
-Hero Mastery - Winston - Recruit - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Winston|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Winston:1|)
-Hero Mastery - Winston - Recruit - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Winston|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Winston:1|)
-Hero Mastery - Winston - Agent - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Winston|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Winston:2|)
-Hero Mastery - Winston - Agent - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Winston|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Winston:2|)
-Hero Mastery - Winston - Agent - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Winston|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Winston:2|)
-Hero Mastery - Winston - Agent - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Winston|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Winston:2|)
-Hero Mastery - Winston - Agent - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Winston|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Winston:2|)
-Hero Mastery - Winston - Veteran - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Winston|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Winston:3|)
-Hero Mastery - Winston - Veteran - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Winston|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Winston:3|)
-Hero Mastery - Winston - Veteran - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Winston|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Winston:3|)
-Hero Mastery - Winston - Veteran - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Winston|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Winston:3|)
-Hero Mastery - Winston - Veteran - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Winston|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Winston:3|)
-Hero Mastery - DVa - Recruit - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - DVa|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - DVa:1|)
-Hero Mastery - DVa - Recruit - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - DVa|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - DVa:1|)
-Hero Mastery - DVa - Recruit - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - DVa|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - DVa:1|)
-Hero Mastery - DVa - Recruit - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - DVa|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - DVa:1|)
-Hero Mastery - DVa - Recruit - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - DVa|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - DVa:1|)
-Hero Mastery - DVa - Agent - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - DVa|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - DVa:2|)
-Hero Mastery - DVa - Agent - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - DVa|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - DVa:2|)
-Hero Mastery - DVa - Agent - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - DVa|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - DVa:2|)
-Hero Mastery - DVa - Agent - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - DVa|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - DVa:2|)
-Hero Mastery - DVa - Agent - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - DVa|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - DVa:2|)
-Hero Mastery - DVa - Veteran - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - DVa|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - DVa:3|)
-Hero Mastery - DVa - Veteran - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - DVa|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - DVa:3|)
-Hero Mastery - DVa - Veteran - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - DVa|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - DVa:3|)
-Hero Mastery - DVa - Veteran - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - DVa|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - DVa:3|)
-Hero Mastery - DVa - Veteran - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - DVa|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - DVa:3|)
-Hero Mastery - Echo - Recruit - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Echo|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Echo:1|)
-Hero Mastery - Echo - Recruit - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Echo|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Echo:1|)
-Hero Mastery - Echo - Recruit - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Echo|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Echo:1|)
-Hero Mastery - Echo - Recruit - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Echo|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Echo:1|)
-Hero Mastery - Echo - Recruit - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Echo|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Echo:1|)
-Hero Mastery - Echo - Agent - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Echo|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Echo:2|)
-Hero Mastery - Echo - Agent - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Echo|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Echo:2|)
-Hero Mastery - Echo - Agent - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Echo|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Echo:2|)
-Hero Mastery - Echo - Agent - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Echo|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Echo:2|)
-Hero Mastery - Echo - Agent - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Echo|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Echo:2|)
-Hero Mastery - Echo - Veteran - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Echo|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Echo:3|)
-Hero Mastery - Echo - Veteran - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Echo|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Echo:3|)
-Hero Mastery - Echo - Veteran - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Echo|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Echo:3|)
-Hero Mastery - Echo - Veteran - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Echo|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Echo:3|)
-Hero Mastery - Echo - Veteran - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Echo|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Echo:3|)
-Hero Mastery - Genji - Recruit - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Genji|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Genji:1|)
-Hero Mastery - Genji - Recruit - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Genji|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Genji:1|)
-Hero Mastery - Genji - Recruit - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Genji|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Genji:1|)
-Hero Mastery - Genji - Recruit - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Genji|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Genji:1|)
-Hero Mastery - Genji - Recruit - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Genji|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Genji:1|)
-Hero Mastery - Genji - Agent - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Genji|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Genji:2|)
-Hero Mastery - Genji - Agent - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Genji|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Genji:2|)
-Hero Mastery - Genji - Agent - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Genji|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Genji:2|)
-Hero Mastery - Genji - Agent - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Genji|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Genji:2|)
-Hero Mastery - Genji - Agent - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Genji|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Genji:2|)
-Hero Mastery - Genji - Veteran - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Genji|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Genji:3|)
-Hero Mastery - Genji - Veteran - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Genji|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Genji:3|)
-Hero Mastery - Genji - Veteran - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Genji|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Genji:3|)
-Hero Mastery - Genji - Veteran - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Genji|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Genji:3|)
-Hero Mastery - Genji - Veteran - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Genji|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Genji:3|)
-Hero Mastery - Lucio - Recruit - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Lucio|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Lucio:1|)
-Hero Mastery - Lucio - Recruit - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Lucio|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Lucio:1|)
-Hero Mastery - Lucio - Recruit - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Lucio|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Lucio:1|)
-Hero Mastery - Lucio - Recruit - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Lucio|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Lucio:1|)
-Hero Mastery - Lucio - Recruit - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Lucio|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Lucio:1|)
-Hero Mastery - Lucio - Agent - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Lucio|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Lucio:2|)
-Hero Mastery - Lucio - Agent - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Lucio|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Lucio:2|)
-Hero Mastery - Lucio - Agent - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Lucio|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Lucio:2|)
-Hero Mastery - Lucio - Agent - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Lucio|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Lucio:2|)
-Hero Mastery - Lucio - Agent - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Lucio|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Lucio:2|)
-Hero Mastery - Lucio - Veteran - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Lucio|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Lucio:3|)
-Hero Mastery - Lucio - Veteran - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Lucio|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Lucio:3|)
-Hero Mastery - Lucio - Veteran - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Lucio|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Lucio:3|)
-Hero Mastery - Lucio - Veteran - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Lucio|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Lucio:3|)
-Hero Mastery - Lucio - Veteran - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Lucio|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Lucio:3|)
-Hero Mastery - Mei - Recruit - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mei|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mei:1|)
-Hero Mastery - Mei - Recruit - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mei|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mei:1|)
-Hero Mastery - Mei - Recruit - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mei|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mei:1|)
-Hero Mastery - Mei - Recruit - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mei|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mei:1|)
-Hero Mastery - Mei - Recruit - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mei|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mei:1|)
-Hero Mastery - Mei - Agent - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mei|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mei:2|)
-Hero Mastery - Mei - Agent - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mei|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mei:2|)
-Hero Mastery - Mei - Agent - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mei|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mei:2|)
-Hero Mastery - Mei - Agent - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mei|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mei:2|)
-Hero Mastery - Mei - Agent - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mei|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mei:2|)
-Hero Mastery - Mei - Veteran - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mei|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mei:3|)
-Hero Mastery - Mei - Veteran - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mei|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mei:3|)
-Hero Mastery - Mei - Veteran - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mei|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mei:3|)
-Hero Mastery - Mei - Veteran - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mei|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mei:3|)
-Hero Mastery - Mei - Veteran - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Mei|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Mei:3|)
-Hero Mastery - Soldier 76 - Recruit - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76:1|)
-Hero Mastery - Soldier 76 - Recruit - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76:1|)
-Hero Mastery - Soldier 76 - Recruit - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76:1|)
-Hero Mastery - Soldier 76 - Recruit - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76:1|)
-Hero Mastery - Soldier 76 - Recruit - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76:1|)
-Hero Mastery - Soldier 76 - Agent - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76:2|)
-Hero Mastery - Soldier 76 - Agent - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76:2|)
-Hero Mastery - Soldier 76 - Agent - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76:2|)
-Hero Mastery - Soldier 76 - Agent - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76:2|)
-Hero Mastery - Soldier 76 - Agent - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76:2|)
-Hero Mastery - Soldier 76 - Veteran - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76:3|)
-Hero Mastery - Soldier 76 - Veteran - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76:3|)
-Hero Mastery - Soldier 76 - Veteran - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76:3|)
-Hero Mastery - Soldier 76 - Veteran - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76:3|)
-Hero Mastery - Soldier 76 - Veteran - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Soldier 76:3|)
-Hero Mastery - Kiriko - Recruit - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko:1|)
-Hero Mastery - Kiriko - Recruit - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko:1|)
-Hero Mastery - Kiriko - Recruit - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko:1|)
-Hero Mastery - Kiriko - Recruit - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko:1|)
-Hero Mastery - Kiriko - Recruit - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko:1|)
-Hero Mastery - Kiriko - Agent - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko:2|)
-Hero Mastery - Kiriko - Agent - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko:2|)
-Hero Mastery - Kiriko - Agent - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko:2|)
-Hero Mastery - Kiriko - Agent - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko:2|)
-Hero Mastery - Kiriko - Agent - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko:2|)
-Hero Mastery - Kiriko - Veteran - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko:3|)
-Hero Mastery - Kiriko - Veteran - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko:3|)
-Hero Mastery - Kiriko - Veteran - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko:3|)
-Hero Mastery - Kiriko - Veteran - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko:3|)
-Hero Mastery - Kiriko - Veteran - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Kiriko:3|)
-Hero Mastery - Cassidy - Recruit - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy:1|)
-Hero Mastery - Cassidy - Recruit - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy:1|)
-Hero Mastery - Cassidy - Recruit - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy:1|)
-Hero Mastery - Cassidy - Recruit - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy:1|)
-Hero Mastery - Cassidy - Recruit - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy:1|)
-Hero Mastery - Cassidy - Agent - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy:2|)
-Hero Mastery - Cassidy - Agent - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy:2|)
-Hero Mastery - Cassidy - Agent - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy:2|)
-Hero Mastery - Cassidy - Agent - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy:2|)
-Hero Mastery - Cassidy - Agent - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy:2|)
-Hero Mastery - Cassidy - Veteran - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy:3|)
-Hero Mastery - Cassidy - Veteran - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy:3|)
-Hero Mastery - Cassidy - Veteran - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy:3|)
-Hero Mastery - Cassidy - Veteran - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy:3|)
-Hero Mastery - Cassidy - Veteran - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Cassidy:3|)
-Hero Mastery - Brigitte - Recruit - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte:1|)
-Hero Mastery - Brigitte - Recruit - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte:1|)
-Hero Mastery - Brigitte - Recruit - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte:1|)
-Hero Mastery - Brigitte - Recruit - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte:1|)
-Hero Mastery - Brigitte - Recruit - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte:1|)
-Hero Mastery - Brigitte - Agent - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte:2|)
-Hero Mastery - Brigitte - Agent - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte:2|)
-Hero Mastery - Brigitte - Agent - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte:2|)
-Hero Mastery - Brigitte - Agent - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte:2|)
-Hero Mastery - Brigitte - Agent - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte:2|)
-Hero Mastery - Brigitte - Veteran - Check 1,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte:3|)
-Hero Mastery - Brigitte - Veteran - Check 2,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte:3|)
-Hero Mastery - Brigitte - Veteran - Check 3,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte:3|)
-Hero Mastery - Brigitte - Veteran - Check 4,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte:3|)
-Hero Mastery - Brigitte - Veteran - Check 5,Hero Masteries,({YamlDisabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte|) or ({YamlEnabled(progressive_hero_masteries)} and |Hero Mastery - Brigitte:3|)
+Hero Mastery - Brigitte - Recruit - Check 1,Hero Masteries,|Hero Mastery - Brigitte:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Brigitte - Recruit - Check 2,Hero Masteries,|Hero Mastery - Brigitte:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Brigitte - Recruit - Check 3,Hero Masteries,|Hero Mastery - Brigitte:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Brigitte - Recruit - Check 4,Hero Masteries,|Hero Mastery - Brigitte:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Brigitte - Recruit - Check 5,Hero Masteries,|Hero Mastery - Brigitte:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Brigitte - Agent - Check 1,Hero Masteries,|Hero Mastery - Brigitte:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Brigitte - Agent - Check 2,Hero Masteries,|Hero Mastery - Brigitte:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Brigitte - Agent - Check 3,Hero Masteries,|Hero Mastery - Brigitte:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Brigitte - Agent - Check 4,Hero Masteries,|Hero Mastery - Brigitte:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Brigitte - Agent - Check 5,Hero Masteries,|Hero Mastery - Brigitte:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Brigitte - Veteran - Check 1,Hero Masteries,|Hero Mastery - Brigitte:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Brigitte - Veteran - Check 2,Hero Masteries,|Hero Mastery - Brigitte:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Brigitte - Veteran - Check 3,Hero Masteries,|Hero Mastery - Brigitte:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Brigitte - Veteran - Check 4,Hero Masteries,|Hero Mastery - Brigitte:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Brigitte - Veteran - Check 5,Hero Masteries,|Hero Mastery - Brigitte:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Cassidy - Recruit - Check 1,Hero Masteries,|Hero Mastery - Cassidy:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Cassidy - Recruit - Check 2,Hero Masteries,|Hero Mastery - Cassidy:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Cassidy - Recruit - Check 3,Hero Masteries,|Hero Mastery - Cassidy:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Cassidy - Recruit - Check 4,Hero Masteries,|Hero Mastery - Cassidy:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Cassidy - Recruit - Check 5,Hero Masteries,|Hero Mastery - Cassidy:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Cassidy - Agent - Check 1,Hero Masteries,|Hero Mastery - Cassidy:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Cassidy - Agent - Check 2,Hero Masteries,|Hero Mastery - Cassidy:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Cassidy - Agent - Check 3,Hero Masteries,|Hero Mastery - Cassidy:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Cassidy - Agent - Check 4,Hero Masteries,|Hero Mastery - Cassidy:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Cassidy - Agent - Check 5,Hero Masteries,|Hero Mastery - Cassidy:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Cassidy - Veteran - Check 1,Hero Masteries,|Hero Mastery - Cassidy:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Cassidy - Veteran - Check 2,Hero Masteries,|Hero Mastery - Cassidy:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Cassidy - Veteran - Check 3,Hero Masteries,|Hero Mastery - Cassidy:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Cassidy - Veteran - Check 4,Hero Masteries,|Hero Mastery - Cassidy:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Cassidy - Veteran - Check 5,Hero Masteries,|Hero Mastery - Cassidy:{setHeroMasteryRequirement(3)}|
+Hero Mastery - DVa - Recruit - Check 1,Hero Masteries,|Hero Mastery - DVa:{setHeroMasteryRequirement(1)}|
+Hero Mastery - DVa - Recruit - Check 2,Hero Masteries,|Hero Mastery - DVa:{setHeroMasteryRequirement(1)}|
+Hero Mastery - DVa - Recruit - Check 3,Hero Masteries,|Hero Mastery - DVa:{setHeroMasteryRequirement(1)}|
+Hero Mastery - DVa - Recruit - Check 4,Hero Masteries,|Hero Mastery - DVa:{setHeroMasteryRequirement(1)}|
+Hero Mastery - DVa - Recruit - Check 5,Hero Masteries,|Hero Mastery - DVa:{setHeroMasteryRequirement(1)}|
+Hero Mastery - DVa - Agent - Check 1,Hero Masteries,|Hero Mastery - DVa:{setHeroMasteryRequirement(2)}|
+Hero Mastery - DVa - Agent - Check 2,Hero Masteries,|Hero Mastery - DVa:{setHeroMasteryRequirement(2)}|
+Hero Mastery - DVa - Agent - Check 3,Hero Masteries,|Hero Mastery - DVa:{setHeroMasteryRequirement(2)}|
+Hero Mastery - DVa - Agent - Check 4,Hero Masteries,|Hero Mastery - DVa:{setHeroMasteryRequirement(2)}|
+Hero Mastery - DVa - Agent - Check 5,Hero Masteries,|Hero Mastery - DVa:{setHeroMasteryRequirement(2)}|
+Hero Mastery - DVa - Veteran - Check 1,Hero Masteries,|Hero Mastery - DVa:{setHeroMasteryRequirement(3)}|
+Hero Mastery - DVa - Veteran - Check 2,Hero Masteries,|Hero Mastery - DVa:{setHeroMasteryRequirement(3)}|
+Hero Mastery - DVa - Veteran - Check 3,Hero Masteries,|Hero Mastery - DVa:{setHeroMasteryRequirement(3)}|
+Hero Mastery - DVa - Veteran - Check 4,Hero Masteries,|Hero Mastery - DVa:{setHeroMasteryRequirement(3)}|
+Hero Mastery - DVa - Veteran - Check 5,Hero Masteries,|Hero Mastery - DVa:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Echo - Recruit - Check 1,Hero Masteries,|Hero Mastery - Echo:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Echo - Recruit - Check 2,Hero Masteries,|Hero Mastery - Echo:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Echo - Recruit - Check 3,Hero Masteries,|Hero Mastery - Echo:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Echo - Recruit - Check 4,Hero Masteries,|Hero Mastery - Echo:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Echo - Recruit - Check 5,Hero Masteries,|Hero Mastery - Echo:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Echo - Agent - Check 1,Hero Masteries,|Hero Mastery - Echo:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Echo - Agent - Check 2,Hero Masteries,|Hero Mastery - Echo:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Echo - Agent - Check 3,Hero Masteries,|Hero Mastery - Echo:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Echo - Agent - Check 4,Hero Masteries,|Hero Mastery - Echo:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Echo - Agent - Check 5,Hero Masteries,|Hero Mastery - Echo:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Echo - Veteran - Check 1,Hero Masteries,|Hero Mastery - Echo:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Echo - Veteran - Check 2,Hero Masteries,|Hero Mastery - Echo:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Echo - Veteran - Check 3,Hero Masteries,|Hero Mastery - Echo:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Echo - Veteran - Check 4,Hero Masteries,|Hero Mastery - Echo:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Echo - Veteran - Check 5,Hero Masteries,|Hero Mastery - Echo:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Genji - Recruit - Check 1,Hero Masteries,|Hero Mastery - Genji:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Genji - Recruit - Check 2,Hero Masteries,|Hero Mastery - Genji:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Genji - Recruit - Check 3,Hero Masteries,|Hero Mastery - Genji:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Genji - Recruit - Check 4,Hero Masteries,|Hero Mastery - Genji:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Genji - Recruit - Check 5,Hero Masteries,|Hero Mastery - Genji:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Genji - Agent - Check 1,Hero Masteries,|Hero Mastery - Genji:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Genji - Agent - Check 2,Hero Masteries,|Hero Mastery - Genji:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Genji - Agent - Check 3,Hero Masteries,|Hero Mastery - Genji:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Genji - Agent - Check 4,Hero Masteries,|Hero Mastery - Genji:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Genji - Agent - Check 5,Hero Masteries,|Hero Mastery - Genji:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Genji - Veteran - Check 1,Hero Masteries,|Hero Mastery - Genji:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Genji - Veteran - Check 2,Hero Masteries,|Hero Mastery - Genji:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Genji - Veteran - Check 3,Hero Masteries,|Hero Mastery - Genji:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Genji - Veteran - Check 4,Hero Masteries,|Hero Mastery - Genji:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Genji - Veteran - Check 5,Hero Masteries,|Hero Mastery - Genji:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Kiriko - Recruit - Check 1,Hero Masteries,|Hero Mastery - Kiriko:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Kiriko - Recruit - Check 2,Hero Masteries,|Hero Mastery - Kiriko:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Kiriko - Recruit - Check 3,Hero Masteries,|Hero Mastery - Kiriko:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Kiriko - Recruit - Check 4,Hero Masteries,|Hero Mastery - Kiriko:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Kiriko - Recruit - Check 5,Hero Masteries,|Hero Mastery - Kiriko:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Kiriko - Agent - Check 1,Hero Masteries,|Hero Mastery - Kiriko:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Kiriko - Agent - Check 2,Hero Masteries,|Hero Mastery - Kiriko:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Kiriko - Agent - Check 3,Hero Masteries,|Hero Mastery - Kiriko:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Kiriko - Agent - Check 4,Hero Masteries,|Hero Mastery - Kiriko:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Kiriko - Agent - Check 5,Hero Masteries,|Hero Mastery - Kiriko:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Kiriko - Veteran - Check 1,Hero Masteries,|Hero Mastery - Kiriko:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Kiriko - Veteran - Check 2,Hero Masteries,|Hero Mastery - Kiriko:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Kiriko - Veteran - Check 3,Hero Masteries,|Hero Mastery - Kiriko:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Kiriko - Veteran - Check 4,Hero Masteries,|Hero Mastery - Kiriko:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Kiriko - Veteran - Check 5,Hero Masteries,|Hero Mastery - Kiriko:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Lucio - Recruit - Check 1,Hero Masteries,|Hero Mastery - Lucio:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Lucio - Recruit - Check 2,Hero Masteries,|Hero Mastery - Lucio:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Lucio - Recruit - Check 3,Hero Masteries,|Hero Mastery - Lucio:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Lucio - Recruit - Check 4,Hero Masteries,|Hero Mastery - Lucio:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Lucio - Recruit - Check 5,Hero Masteries,|Hero Mastery - Lucio:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Lucio - Agent - Check 1,Hero Masteries,|Hero Mastery - Lucio:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Lucio - Agent - Check 2,Hero Masteries,|Hero Mastery - Lucio:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Lucio - Agent - Check 3,Hero Masteries,|Hero Mastery - Lucio:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Lucio - Agent - Check 4,Hero Masteries,|Hero Mastery - Lucio:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Lucio - Agent - Check 5,Hero Masteries,|Hero Mastery - Lucio:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Lucio - Veteran - Check 1,Hero Masteries,|Hero Mastery - Lucio:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Lucio - Veteran - Check 2,Hero Masteries,|Hero Mastery - Lucio:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Lucio - Veteran - Check 3,Hero Masteries,|Hero Mastery - Lucio:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Lucio - Veteran - Check 4,Hero Masteries,|Hero Mastery - Lucio:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Lucio - Veteran - Check 5,Hero Masteries,|Hero Mastery - Lucio:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Mei - Recruit - Check 1,Hero Masteries,|Hero Mastery - Mei:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Mei - Recruit - Check 2,Hero Masteries,|Hero Mastery - Mei:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Mei - Recruit - Check 3,Hero Masteries,|Hero Mastery - Mei:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Mei - Recruit - Check 4,Hero Masteries,|Hero Mastery - Mei:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Mei - Recruit - Check 5,Hero Masteries,|Hero Mastery - Mei:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Mei - Agent - Check 1,Hero Masteries,|Hero Mastery - Mei:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Mei - Agent - Check 2,Hero Masteries,|Hero Mastery - Mei:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Mei - Agent - Check 3,Hero Masteries,|Hero Mastery - Mei:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Mei - Agent - Check 4,Hero Masteries,|Hero Mastery - Mei:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Mei - Agent - Check 5,Hero Masteries,|Hero Mastery - Mei:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Mei - Veteran - Check 1,Hero Masteries,|Hero Mastery - Mei:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Mei - Veteran - Check 2,Hero Masteries,|Hero Mastery - Mei:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Mei - Veteran - Check 3,Hero Masteries,|Hero Mastery - Mei:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Mei - Veteran - Check 4,Hero Masteries,|Hero Mastery - Mei:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Mei - Veteran - Check 5,Hero Masteries,|Hero Mastery - Mei:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Mercy - Recruit - Check 1,Hero Masteries,|Hero Mastery - Mercy:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Mercy - Recruit - Check 2,Hero Masteries,|Hero Mastery - Mercy:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Mercy - Recruit - Check 3,Hero Masteries,|Hero Mastery - Mercy:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Mercy - Recruit - Check 4,Hero Masteries,|Hero Mastery - Mercy:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Mercy - Recruit - Check 5,Hero Masteries,|Hero Mastery - Mercy:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Mercy - Agent - Check 1,Hero Masteries,|Hero Mastery - Mercy:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Mercy - Agent - Check 2,Hero Masteries,|Hero Mastery - Mercy:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Mercy - Agent - Check 3,Hero Masteries,|Hero Mastery - Mercy:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Mercy - Agent - Check 4,Hero Masteries,|Hero Mastery - Mercy:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Mercy - Agent - Check 5,Hero Masteries,|Hero Mastery - Mercy:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Mercy - Veteran - Check 1,Hero Masteries,|Hero Mastery - Mercy:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Mercy - Veteran - Check 2,Hero Masteries,|Hero Mastery - Mercy:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Mercy - Veteran - Check 3,Hero Masteries,|Hero Mastery - Mercy:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Mercy - Veteran - Check 4,Hero Masteries,|Hero Mastery - Mercy:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Mercy - Veteran - Check 5,Hero Masteries,|Hero Mastery - Mercy:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Reinhardt - Recruit - Check 1,Hero Masteries,|Hero Mastery - Reinhardt:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Reinhardt - Recruit - Check 2,Hero Masteries,|Hero Mastery - Reinhardt:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Reinhardt - Recruit - Check 3,Hero Masteries,|Hero Mastery - Reinhardt:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Reinhardt - Recruit - Check 4,Hero Masteries,|Hero Mastery - Reinhardt:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Reinhardt - Recruit - Check 5,Hero Masteries,|Hero Mastery - Reinhardt:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Reinhardt - Agent - Check 1,Hero Masteries,|Hero Mastery - Reinhardt:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Reinhardt - Agent - Check 2,Hero Masteries,|Hero Mastery - Reinhardt:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Reinhardt - Agent - Check 3,Hero Masteries,|Hero Mastery - Reinhardt:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Reinhardt - Agent - Check 4,Hero Masteries,|Hero Mastery - Reinhardt:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Reinhardt - Agent - Check 5,Hero Masteries,|Hero Mastery - Reinhardt:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Reinhardt - Veteran - Check 1,Hero Masteries,|Hero Mastery - Reinhardt:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Reinhardt - Veteran - Check 2,Hero Masteries,|Hero Mastery - Reinhardt:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Reinhardt - Veteran - Check 3,Hero Masteries,|Hero Mastery - Reinhardt:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Reinhardt - Veteran - Check 4,Hero Masteries,|Hero Mastery - Reinhardt:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Reinhardt - Veteran - Check 5,Hero Masteries,|Hero Mastery - Reinhardt:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Soldier 76 - Recruit - Check 1,Hero Masteries,|Hero Mastery - Soldier 76:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Soldier 76 - Recruit - Check 2,Hero Masteries,|Hero Mastery - Soldier 76:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Soldier 76 - Recruit - Check 3,Hero Masteries,|Hero Mastery - Soldier 76:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Soldier 76 - Recruit - Check 4,Hero Masteries,|Hero Mastery - Soldier 76:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Soldier 76 - Recruit - Check 5,Hero Masteries,|Hero Mastery - Soldier 76:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Soldier 76 - Agent - Check 1,Hero Masteries,|Hero Mastery - Soldier 76:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Soldier 76 - Agent - Check 2,Hero Masteries,|Hero Mastery - Soldier 76:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Soldier 76 - Agent - Check 3,Hero Masteries,|Hero Mastery - Soldier 76:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Soldier 76 - Agent - Check 4,Hero Masteries,|Hero Mastery - Soldier 76:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Soldier 76 - Agent - Check 5,Hero Masteries,|Hero Mastery - Soldier 76:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Soldier 76 - Veteran - Check 1,Hero Masteries,|Hero Mastery - Soldier 76:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Soldier 76 - Veteran - Check 2,Hero Masteries,|Hero Mastery - Soldier 76:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Soldier 76 - Veteran - Check 3,Hero Masteries,|Hero Mastery - Soldier 76:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Soldier 76 - Veteran - Check 4,Hero Masteries,|Hero Mastery - Soldier 76:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Soldier 76 - Veteran - Check 5,Hero Masteries,|Hero Mastery - Soldier 76:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Sojourn - Recruit - Check 1,Hero Masteries,|Hero Mastery - Sojourn:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Sojourn - Recruit - Check 2,Hero Masteries,|Hero Mastery - Sojourn:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Sojourn - Recruit - Check 3,Hero Masteries,|Hero Mastery - Sojourn:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Sojourn - Recruit - Check 4,Hero Masteries,|Hero Mastery - Sojourn:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Sojourn - Recruit - Check 5,Hero Masteries,|Hero Mastery - Sojourn:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Sojourn - Agent - Check 1,Hero Masteries,|Hero Mastery - Sojourn:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Sojourn - Agent - Check 2,Hero Masteries,|Hero Mastery - Sojourn:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Sojourn - Agent - Check 3,Hero Masteries,|Hero Mastery - Sojourn:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Sojourn - Agent - Check 4,Hero Masteries,|Hero Mastery - Sojourn:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Sojourn - Agent - Check 5,Hero Masteries,|Hero Mastery - Sojourn:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Sojourn - Veteran - Check 1,Hero Masteries,|Hero Mastery - Sojourn:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Sojourn - Veteran - Check 2,Hero Masteries,|Hero Mastery - Sojourn:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Sojourn - Veteran - Check 3,Hero Masteries,|Hero Mastery - Sojourn:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Sojourn - Veteran - Check 4,Hero Masteries,|Hero Mastery - Sojourn:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Sojourn - Veteran - Check 5,Hero Masteries,|Hero Mastery - Sojourn:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Tracer - Recruit - Check 1,Hero Masteries,|Hero Mastery - Tracer:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Tracer - Recruit - Check 2,Hero Masteries,|Hero Mastery - Tracer:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Tracer - Recruit - Check 3,Hero Masteries,|Hero Mastery - Tracer:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Tracer - Recruit - Check 4,Hero Masteries,|Hero Mastery - Tracer:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Tracer - Recruit - Check 5,Hero Masteries,|Hero Mastery - Tracer:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Tracer - Agent - Check 1,Hero Masteries,|Hero Mastery - Tracer:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Tracer - Agent - Check 2,Hero Masteries,|Hero Mastery - Tracer:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Tracer - Agent - Check 3,Hero Masteries,|Hero Mastery - Tracer:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Tracer - Agent - Check 4,Hero Masteries,|Hero Mastery - Tracer:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Tracer - Agent - Check 5,Hero Masteries,|Hero Mastery - Tracer:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Tracer - Veteran - Check 1,Hero Masteries,|Hero Mastery - Tracer:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Tracer - Veteran - Check 2,Hero Masteries,|Hero Mastery - Tracer:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Tracer - Veteran - Check 3,Hero Masteries,|Hero Mastery - Tracer:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Tracer - Veteran - Check 4,Hero Masteries,|Hero Mastery - Tracer:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Tracer - Veteran - Check 5,Hero Masteries,|Hero Mastery - Tracer:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Winston - Recruit - Check 1,Hero Masteries,|Hero Mastery - Winston:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Winston - Recruit - Check 2,Hero Masteries,|Hero Mastery - Winston:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Winston - Recruit - Check 3,Hero Masteries,|Hero Mastery - Winston:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Winston - Recruit - Check 4,Hero Masteries,|Hero Mastery - Winston:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Winston - Recruit - Check 5,Hero Masteries,|Hero Mastery - Winston:{setHeroMasteryRequirement(1)}|
+Hero Mastery - Winston - Agent - Check 1,Hero Masteries,|Hero Mastery - Winston:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Winston - Agent - Check 2,Hero Masteries,|Hero Mastery - Winston:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Winston - Agent - Check 3,Hero Masteries,|Hero Mastery - Winston:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Winston - Agent - Check 4,Hero Masteries,|Hero Mastery - Winston:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Winston - Agent - Check 5,Hero Masteries,|Hero Mastery - Winston:{setHeroMasteryRequirement(2)}|
+Hero Mastery - Winston - Veteran - Check 1,Hero Masteries,|Hero Mastery - Winston:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Winston - Veteran - Check 2,Hero Masteries,|Hero Mastery - Winston:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Winston - Veteran - Check 3,Hero Masteries,|Hero Mastery - Winston:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Winston - Veteran - Check 4,Hero Masteries,|Hero Mastery - Winston:{setHeroMasteryRequirement(3)}|
+Hero Mastery - Winston - Veteran - Check 5,Hero Masteries,|Hero Mastery - Winston:{setHeroMasteryRequirement(3)}|
