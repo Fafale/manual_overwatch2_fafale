@@ -1,5 +1,9 @@
 <h1>Manual Overwatch 2 for Archipelago</h1>
 
+Game tracker: https://github.com/Fafale/manual_overwatch2_poptracker/releases/latest
+
+---
+
 A really basic Overwatch implementation for Archipelago. It works just like [League of Legends AP](https://github.com/gaithernOrg/LoLAP) and similars.
 
 It's a _Mcguffin game_[^1], so generation can sometimes fail if you disable too many locations AND using [Universal Tracker](https://github.com/FarisTheAncient/Archipelago/releases) is **extremely** recommended to avoid breaking the already simplistic logic.
