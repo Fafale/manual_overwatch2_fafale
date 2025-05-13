@@ -476,6 +476,14 @@
                 "Deathmatch Gamemodes"
             ],
             "progression": true
+        },
+        {
+            "name": "Freja",
+            "category": [
+                "Heroes",
+                "Damage Heroes"
+            ],
+            "progression": true
         }
     ]
 }
