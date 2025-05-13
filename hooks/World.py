@@ -34,7 +34,7 @@ final_includes_ow2 = {}
 
 def manual_overwatch2_define_max_medals(multiworld: MultiWorld, player: int, print_log: bool):
     TANK_HERO_AMOUNT = 13
-    DAMAGE_HERO_AMOUNT = 18
+    DAMAGE_HERO_AMOUNT = 19
     SUPPORT_HERO_AMOUNT = 11
     HERO_MASTERY_AMOUNT = 14
 
@@ -297,6 +297,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             "Bastion",
             "Cassidy",
             "Echo",
+            "Freja",
             "Genji",
             "Hanzo",
             "Junkrat",

@@ -27,6 +27,7 @@ DAMAGE_HERO_LIST = [
     "Bastion",
     "Cassidy",
     "Echo",
+    "Freja",
     "Genji",
     "Hanzo",
     "Junkrat",
